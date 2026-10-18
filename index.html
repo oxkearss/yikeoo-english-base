@@ -8,9 +8,9 @@
   <title>YIKEOO 英语学习基地 · 从零开始，每天进步一点</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="favicon.svg">
-  <link rel="stylesheet" href="style.css?v=11">
+  <link rel="stylesheet" href="style.css?v=12">
   <script src="stars.js?v=9" defer></script>
-  <script src="learning.js?v=3" defer></script>
+  <script src="learning.js?v=4" defer></script>
 </head>
 <body>
   <canvas class="starfield" id="starfield" aria-hidden="true"></canvas>
@@ -32,9 +32,9 @@
       <aside class="today-card" aria-label="今日学习进度">
         <div class="card-top"><span class="today-label">YOUR FIRST LESSON</span><span class="day-count">01 / 30</span></div>
         <div class="orbit-icon" aria-hidden="true"><img src="orbit-mark.svg" alt=""></div>
-        <p class="today-kicker">第一课　/　打个招呼</p>
+        <p class="today-kicker">第一课　/　发音与打招呼</p>
         <h2>Say hello<span class="lesson-subtitle">学会问候，也介绍自己</span></h2>
-        <p class="today-desc">从 hello、my、name、is 开始，组成你的第一句英语。</p>
+        <p class="today-desc">先看懂音标和口型，再读 hello，组成你的第一句英语。</p>
         <div class="today-meta"><span>约 8 分钟</span><span>词汇 · 句型 · 小测</span></div>
         <div class="progress-label"><span>你的学习进度</span><span id="progress-text">0 / 30 天</span></div>
         <div class="progress-track"><span id="overall-progress"></span></div>
@@ -54,15 +54,26 @@
       </div>
     </section>
 
-    <section id="course" class="course-section wrap" aria-labelledby="course-title">
-      <div class="section-heading"><div><p class="section-index">YOUR LEARNING PATH</p><h2 id="course-title">从零开始的 30 天</h2><p>先建立最常用的基础，再慢慢扩展到生活场景。</p></div><div class="pace-chip">每日 8–10 分钟</div></div>
-      <div class="path-grid">
-        <article class="path-card current"><div class="path-top"><span class="path-number">01</span><span class="path-status">正在开始</span></div><p class="path-days">DAY 01—07</p><h3>先开口，认识基础</h3><p>问候、自我介绍、数字、常见物品和基础句型。</p><div class="path-skills"><span>打招呼</span><span>介绍自己</span><span>基础句子</span></div><button class="path-cta" data-start-lesson>从第 1 天开始 <span>→</span></button></article>
-        <article class="path-card"><div class="path-top"><span class="path-number">02</span><span class="path-status planned">接下来</span></div><p class="path-days">DAY 08—14</p><h3>说说日常生活</h3><p>时间、家人、工作、习惯，以及简单的日常表达。</p><div class="path-skills"><span>日常动词</span><span>时间表达</span><span>听力入门</span></div><span class="path-note">第 1 阶段完成后解锁</span></article>
-        <article class="path-card"><div class="path-top"><span class="path-number">03</span><span class="path-status planned">规划中</span></div><p class="path-days">DAY 15—21</p><h3>学会提问和回应</h3><p>疑问句、地点、喜好和简单的来回对话。</p><div class="path-skills"><span>问句</span><span>地点方向</span><span>情景对话</span></div><span class="path-note">循序渐进，学了就练</span></article>
-        <article class="path-card"><div class="path-top"><span class="path-number">04</span><span class="path-status planned">规划中</span></div><p class="path-days">DAY 22—30</p><h3>把英语用到生活里</h3><p>点餐、购物、出行和复习，建立自己的基础表达。</p><div class="path-skills"><span>实用场景</span><span>拼写巩固</span><span>阶段复习</span></div><span class="path-note">完成 30 天基础挑战</span></article>
+    <section class="pronunciation-section wrap" aria-labelledby="pronunciation-title">
+      <div class="pronunciation-intro"><p class="section-index">START WITH THE SOUND</p><h2 id="pronunciation-title">先听懂声音，<br>再把英语说出来。</h2><p>音标不是考试符号，而是一张发音地图。每天用几分钟练口型、气流和重音；新单词也会标出音标，带你拆开来读。</p></div>
+      <div class="sound-lessons">
+        <article class="sound-lesson"><span class="sound-symbol">/iː/</span><h3>嘴角向两边，拉长一点</h3><p>舌头靠前、口型像微笑，声音保持长一些。</p><div class="sound-example"><b>sheep</b><span>绵羊</span><small>和 ship 对比：长音 /iː/</small></div></article>
+        <article class="sound-lesson"><span class="sound-symbol">/ɪ/</span><h3>嘴巴放松，短促发音</h3><p>舌头仍靠前，但更放松，快速收住声音。</p><div class="sound-example"><b>ship</b><span>船</span><small>和 sheep 对比：短音 /ɪ/</small></div></article>
+        <article class="sound-lesson"><span class="sound-symbol">/θ/ · /ð/</span><h3>舌尖轻放在上下齿之间</h3><p>轻轻送气读 /θ/（think）；加上声带振动就是 /ð/（this）。</p><div class="sound-example"><b>think · this</b><span>想 · 这个</span><small>不要用中文的“思”或“德”替代</small></div></article>
+        <article class="sound-lesson sound-lesson-note"><span class="sound-symbol">ˈ</span><h3>重音符号后面那一拍更突出</h3><p><b>hello</b> /həˈloʊ/：先轻轻带过 /hə/，再把重音放在 /loʊ/。</p><div class="sound-example"><b>he · LLO</b><span>轻 · 重</span><small>先读慢，再连成自然语速</small></div></article>
       </div>
-      <div class="method-note"><span class="method-mark">✦</span><p><strong>每一课怎么学？</strong>先认识词汇，再看句型和发音，最后用选择题、拼写或听力小测巩固。学过的内容会安排回来复习。</p></div>
+      <p class="pronunciation-note">练习顺序：看音标 → 摆口型 → 慢读 → 放进单词和句子。课程音频会在选定自然、清晰的示范声音后再加入。</p>
+    </section>
+
+    <section id="course" class="course-section wrap" aria-labelledby="course-title">
+      <div class="section-heading"><div><p class="section-index">YOUR LEARNING PATH</p><h2 id="course-title">按你的生活来学英语</h2><p>先看懂每天都会遇到的界面，再练开口交流，接着学 AI，最后扩展阅读。</p></div><div class="pace-chip">每天 8–10 分钟 · 30 天起步</div></div>
+      <div class="path-grid">
+        <article class="path-card current"><div class="path-top"><span class="path-number">01</span><span class="path-status">从这里开始</span></div><p class="path-days">DAY 01—07</p><h3>熟悉设备和常用软件</h3><p>从手机、电脑系统语言开始，再认 X、微信里的常见界面和高频词。</p><div class="path-skills"><span>Settings 设置</span><span>Search 搜索</span><span>Message 消息</span></div><button class="path-cta" data-start-lesson>从发音与第一课开始 <span>→</span></button></article>
+        <article class="path-card"><div class="path-top"><span class="path-number">02</span><span class="path-status planned">接下来</span></div><p class="path-days">DAY 08—14</p><h3>练日常口语交流</h3><p>打招呼、自我介绍、请人帮忙、点餐、购物和问路，练会听懂也练会回应。</p><div class="path-skills"><span>问与答</span><span>生活场景</span><span>跟读练习</span></div><span class="path-note">先会用，再慢慢说顺</span></article>
+        <article class="path-card"><div class="path-top"><span class="path-number">03</span><span class="path-status planned">后续阶段</span></div><p class="path-days">DAY 15—21</p><h3>学 AI 场景专业词汇</h3><p>从你日常接触的 AI 产品入手，学懂 prompt、model、token、context 等词和界面表达。</p><div class="path-skills"><span>AI 词汇</span><span>产品界面</span><span>实用表达</span></div><span class="path-note">每个词都配发音、例句和使用场景</span></article>
+        <article class="path-card"><div class="path-top"><span class="path-number">04</span><span class="path-status planned">逐步提升</span></div><p class="path-days">DAY 22—30+</p><h3>扩展阅读和词汇量</h3><p>从短通知、软件说明和简单文章开始，先读懂大意，再整理值得记的词汇。</p><div class="path-skills"><span>短文阅读</span><span>词汇复习</span><span>语境理解</span></div><span class="path-note">按你的实际阅读水平逐级加量</span></article>
+      </div>
+      <div class="method-note"><span class="method-mark">✦</span><p><strong>发音会贯穿每个阶段。</strong>每课从音标和口型开始，继续练单词重音、句子节奏和常见连读；新词放进熟悉的系统界面、日常对话或 AI 产品场景里，再通过小测和回顾巩固。</p></div>
     </section>
 
     <section class="principles wrap" aria-label="学习方式"><div><span>01</span><p>一次只学一点<br><strong>短课不容易中断</strong></p></div><div><span>02</span><p>看、听、读、选<br><strong>把单词放进句子里</strong></p></div><div><span>03</span><p>答错也没关系<br><strong>复习比赶进度重要</strong></p></div></section>

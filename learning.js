@@ -1,10 +1,11 @@
 const lessonSection = document.querySelector('#lesson');
 const lessonContent = document.querySelector('#lesson-content');
 const lessonSteps = [
-  { label: '第 1 步 · 认识新单词', title: '先认识这 4 个词', body: '先看单词和音标，跟着自己读一遍。不用急着背，先熟悉它们。', type: 'words' },
-  { label: '第 2 步 · 看懂句子', title: '用英语介绍自己', body: '英语里可以这样说自己的名字。先读完整句子，再试着自己跟读。', type: 'sentence' },
-  { label: '第 3 步 · 小测验', title: '选出正确答案', body: '做对或做错都没关系，这一步是帮你记得更牢。', type: 'quiz' },
-  { label: '第 4 步 · 今天完成', title: '第一步，已经迈出来了。', body: '今天学会了问候和介绍名字。明天继续学 “I am…” 和简单的身份表达。', type: 'finish' }
+  { label: '第 1 步 · 音标和口型', title: '先学会看发音提示', body: '今天不需要背完整张音标表。先看音标、摆口型，再把声音放进熟悉的词里。', type: 'pronunciation' },
+  { label: '第 2 步 · 认识新单词', title: '先认识这 4 个词', body: '先看单词、音标和重音位置，再把口型练习用到问候里。', type: 'words' },
+  { label: '第 3 步 · 看懂句子', title: '用英语介绍自己', body: '先看完整句子的轻重节奏，再试着自己慢慢读一遍。', type: 'sentence' },
+  { label: '第 4 步 · 小测验', title: '选出正确答案', body: '做对或做错都没关系，这一步是帮你记得更牢。', type: 'quiz' },
+  { label: '第 5 步 · 今天完成', title: '第一步，已经迈出来了。', body: '今天认识了音标、重音和问候句。明天继续学手机和电脑里常见的英文界面词。', type: 'finish' }
 ];
 const wordList = [
   ['hello', '你好；喂', '/həˈloʊ/'],
@@ -17,8 +18,8 @@ let quizIndex = 0;
 let quizCorrect = 0;
 let answered = false;
 
-function say(text) {
-  document.querySelector('#lesson-feedback').textContent = `发音音频还在准备中：${text}`;
+function showPronunciationHint(text) {
+  document.querySelector('#lesson-feedback').textContent = text;
 }
 
 function renderStep() {
@@ -31,10 +32,12 @@ function renderStep() {
   answered = false;
   let inner = `<h3>${current.title}</h3><p class="step-description">${current.body}</p>`;
 
-  if (current.type === 'words') {
-    inner += `<div class="word-grid">${wordList.map(([word, meaning, phonetic]) => `<article class="word-card"><button class="sound-button" data-say="${word}" aria-label="播放 ${word} 发音">🔊</button><strong>${word}</strong><span class="phonetic">${phonetic}</span><span class="word-meaning">${meaning}</span></article>`).join('')}</div><p class="example-line">例句：<button class="inline-sound" data-say="Hello! My name is Ke.">🔊 播放整句</button></p>`;
+  if (current.type === 'pronunciation') {
+    inner += `<div class="pronunciation-practice"><article><span class="phonetic-big">/iː/</span><h4>长音：嘴角微笑，声音拉长</h4><p>试着读 sheep /ʃiːp/，听起来像一个完整、拉长的元音。</p></article><article><span class="phonetic-big">/ɪ/</span><h4>短音：嘴巴放松，快速收住</h4><p>试着读 ship /ʃɪp/。和 sheep 对照，注意时长和口型。</p></article><article><span class="phonetic-big">/θ/</span><h4>舌尖轻放齿间，再送气</h4><p>读 think 时让气流通过舌尖和牙齿之间，不要发成“思”。</p></article><article><span class="phonetic-big">/ð/</span><h4>口型相同，加上声带振动</h4><p>读 this 时保持舌位，轻触喉咙感受振动。先慢读，再放进整词。</p></article></div><p class="tip-box">💡 看见 /ˈ/，它后面的音节要更突出。比如 hello /həˈloʊ/：前面轻读 /hə/，重读 /loʊ/。现在试着跟读三遍：慢读、正常速度、放进句子。</p>`;
+  } else if (current.type === 'words') {
+    inner += `<div class="word-grid">${wordList.map(([word, meaning, phonetic]) => `<article class="word-card"><button class="sound-button" data-say="${word}" aria-label="查看 ${word} 的发音提示">口型提示</button><strong>${word}</strong><span class="phonetic">${phonetic}</span><span class="word-meaning">${meaning}</span></article>`).join('')}</div><p class="example-line">整句节奏：<button class="inline-sound" data-say="Hello! My name is Ke.">查看重音提示</button></p>`;
   } else if (current.type === 'sentence') {
-    inner += `<div class="sentence-card"><button class="sound-button" data-say="Hello! My name is Ke.">🔊</button><p class="english-sentence">Hello! My name is <span>Ke</span>.</p><p class="translation">你好！我叫 Ke。</p><div class="sentence-breakdown"><span><b>My name</b><small>我的名字</small></span><i>+</i><span><b>is</b><small>是 / 叫做</small></span><i>+</i><span><b>Ke</b><small>你的名字</small></span></div></div><p class="tip-box">💡 <b>My name is …</b> 是“我的名字是……”。日常介绍自己时，也常说 <b>I'm …</b>。</p>`;
+    inner += `<div class="sentence-card"><button class="sound-button" data-say="sentence">重音提示</button><p class="english-sentence">Hello! My name is <span>Ke</span>.</p><p class="translation">你好！我叫 Ke。</p><div class="sentence-breakdown"><span><b>HEL-lo</b><small>问候，第一拍稍重</small></span><i>·</i><span><b>my NAME</b><small>重音落在 name</small></span><i>·</i><span><b>is KE</b><small>姓名清楚说出</small></span></div></div><p class="tip-box">💡 <b>My name is …</b> 是“我的名字是……”。日常介绍自己时，也常说 <b>I'm …</b>。跟读时先慢慢分组，再连起来说。</p>`;
   } else if (current.type === 'quiz') {
     const questions = [
       { q: '“Hello” 是什么意思？', options: ['谢谢', '你好', '再见'], answer: 1 },
@@ -46,7 +49,16 @@ function renderStep() {
     inner += `<div class="finish-card"><span class="finish-star">✦</span><p>你完成了今天的 8 分钟英语练习</p><div class="finish-stats"><span>4 个新词</span><span>1 个实用句型</span><span>2 道小测题</span></div></div>`;
   }
   lessonContent.innerHTML = inner;
-  lessonContent.querySelectorAll('[data-say]').forEach(button => button.addEventListener('click', () => say(button.dataset.say)));
+  lessonContent.querySelectorAll('[data-say]').forEach(button => button.addEventListener('click', () => {
+    const hints = {
+      hello: 'hello /həˈloʊ/：/h/ 轻轻送气；/ə/ 放松、轻读；/ˈloʊ/ 是重音，嘴唇由圆到略展开。',
+      my: 'my /maɪ/：从开口的 /a/ 滑向 /ɪ/，合成一个音节，不要拆成两个音。',
+      name: 'name /neɪm/：/eɪ/ 从稍开的口型滑向微笑口型，最后闭唇收在 /m/。',
+      is: 'is /ɪz/：短促读 /ɪ/，结尾 /z/ 要有声带振动；手指轻触喉咙可以感觉到。',
+      sentence: '整句按意群读：HEL-lo | my NAME | is KE。先慢读，熟悉后再连成自然语流。'
+    };
+    showPronunciationHint(hints[button.dataset.say] || '先看音标、摆好口型，再慢慢读出来。');
+  }));
   lessonContent.querySelectorAll('[data-option]').forEach(button => button.addEventListener('click', () => checkAnswer(button)));
 }
 
