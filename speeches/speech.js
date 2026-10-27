@@ -9,6 +9,8 @@ let selectedWord = '';
 let holdTimer;
 let held = false;
 let pointerStart;
+let playbackId = 0;
+const sentenceAudio = new Audio();
 
 function makeWordButtons(text) {
   const fragment = document.createDocumentFragment();
@@ -76,7 +78,7 @@ function showReader(speech) {
   const source = document.querySelector('#source-link');
   source.href = speech.source;
   source.textContent = `${speech.sourceLabel} ↗`;
-  speech.sentences.forEach(([english, chinese, highlight]) => {
+  speech.sentences.forEach(([english, chinese, highlight], index) => {
     const block = document.createElement('article');
     block.className = `sentence${highlight ? ' highlight' : ''}`;
     const en = document.createElement('p');
@@ -89,6 +91,7 @@ function showReader(speech) {
     play.type = 'button';
     play.className = 'sentence-play';
     play.dataset.sentence = english;
+    play.dataset.audio = `audio/${speech.id}/${index}.mp3`;
     play.textContent = '▶ 听这句';
     play.setAttribute('aria-label', `朗读句子：${english}`);
     block.append(en, zh, play);
@@ -97,6 +100,8 @@ function showReader(speech) {
 }
 
 function speak(text, message) {
+  playbackId++;
+  sentenceAudio.pause();
   const status = document.querySelector('#sound-status');
   if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance !== 'function') {
     status.textContent = '当前浏览器暂不支持单词朗读。';
@@ -180,7 +185,13 @@ transcript.addEventListener('click', (event) => {
     wordInfoButton.textContent = `查看 ${selectedWord} 的释义`;
     speak(selectedWord, `正在朗读：${selectedWord}`);
   } else if (sentenceButton) {
-    speak(sentenceButton.dataset.sentence, '正在朗读这句话');
+    window.speechSynthesis?.cancel();
+    const currentPlayback = ++playbackId;
+    sentenceAudio.pause();
+    sentenceAudio.src = sentenceButton.dataset.audio;
+    const status = document.querySelector('#sound-status');
+    status.textContent = '正在加载 AI 英语朗读…';
+    sentenceAudio.play().then(() => { if (currentPlayback === playbackId) status.textContent = '正在播放 AI 英语朗读'; }).catch(() => { if (currentPlayback === playbackId) status.textContent = 'AI 朗读暂时无法播放，请检查网络后重试。'; });
   }
 });
 wordInfoButton.addEventListener('click', () => { if (selectedWord) openWordDetails(selectedWord); });
