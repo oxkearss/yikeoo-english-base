@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#020611">
+  <meta name="description" content="YIKEOO 演讲精听：看演讲视频，读中英对照，点击单词听发音。">
+  <title>演讲精听 · YIKEOO 英语学习基地</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../style.css?v=12">
+  <link rel="stylesheet" href="speech.css?v=2">
+  <script src="../stars.js?v=9" defer></script>
+  <script src="data.js?v=2" defer></script>
+  <script src="speech.js?v=2" defer></script>
+</head>
+<body>
+  <canvas class="starfield" id="starfield" aria-hidden="true"></canvas>
+  <a class="skip" href="#main">跳转到正文</a>
+  <header class="wrap topbar">
+    <a class="brand" href="../" aria-label="YIKEOO 首页"><img src="../orbit-mark.svg" width="42" height="42" alt=""><span>YIKEOO</span></a>
+    <nav aria-label="主导航"><a href="../#course">学习路线</a><a href="./" aria-current="page">演讲精听</a><a href="https://kearss.com/">KEARS 主站 <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main" class="wrap speech-main">
+    <section id="catalog" aria-labelledby="catalog-title">
+      <p class="section-index">YIKEOO ENGLISH / SPEECH LIBRARY</p>
+      <div class="catalog-heading"><div><h1 id="catalog-title">让喜欢的声音，<br><span>成为你的英语老师。</span></h1><p>听一场演讲，读懂每一句话。点击英文单词听发音，遇见值得反复读的句子。</p></div><div class="catalog-mark" aria-hidden="true">✦<small>LISTEN<br>READ<br>SPEAK</small></div></div>
+      <div class="library-heading"><div><p class="section-index">THE COLLECTION</p><h2>演讲精听</h2></div><span>从喜欢的故事开始</span></div>
+      <div id="speech-list" class="speech-list"></div>
+    </section>
+    <section id="reader" hidden aria-labelledby="reader-title">
+      <a class="back-link" href="./">← 返回演讲列表</a>
+      <p class="section-index" id="reader-meta"></p>
+      <h1 id="reader-title"></h1>
+      <p class="reader-english-title" id="reader-english-title"></p>
+      <div class="reader-layout">
+        <aside class="video-panel" aria-label="演讲视频">
+          <div class="video-frame"><iframe id="speech-video" title="演讲原视频" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+          <div class="video-caption"><span>WATCH THE ORIGINAL</span><a id="video-link" target="_blank" rel="noopener noreferrer">在原网站观看 ↗</a></div>
+          <p class="video-help">点击播放观看原视频；如果播放器无法使用，可通过上方链接打开。</p>
+        </aside>
+        <div class="reading-panel">
+          <div class="reading-head"><div><p class="section-index">READ & LISTEN</p><h2>中英对照</h2></div><button type="button" id="highlights-toggle" aria-pressed="false">只看经典句</button></div>
+          <p class="reading-tip">点击单词听发音，长按查看释义 <span aria-hidden="true">·</span> 点击句子旁的播放键听整句</p>
+          <p class="reading-note" id="reading-note"></p>
+          <p class="sound-status" id="sound-status" role="status" aria-live="polite"></p>
+          <button type="button" id="word-info-button" class="word-info-button" hidden>查看刚才单词的释义</button>
+          <div id="transcript"></div>
+          <p class="source-link">原文来源：<a id="source-link" target="_blank" rel="noopener noreferrer"></a></p>
+        </div>
+      </div>
+    </section>
+    <div id="not-found" hidden><h1>没有找到这篇演讲</h1><a class="back-link" href="./">← 返回演讲列表</a></div>
+  </main>
+  <dialog id="word-dialog" class="word-dialog" aria-labelledby="word-dialog-title">
+    <div class="word-dialog-head"><div><p class="section-index">WORD NOTES</p><h2 id="word-dialog-title"></h2></div><button type="button" id="close-word-dialog" aria-label="关闭单词释义">×</button></div>
+    <p id="word-phonetic" class="word-phonetic"></p>
+    <button type="button" id="word-pronounce" class="word-pronounce">▶ 听单词发音</button>
+    <div id="word-meaning" class="word-meaning-detail" aria-live="polite"></div>
+    <p class="word-source">音标、词性来自 <a href="https://dictionaryapi.dev/" target="_blank" rel="noopener noreferrer">Free Dictionary API</a>；中文为 MyMemory 自动翻译，仅供参考。查询时仅发送所选单词。</p>
+  </dialog>
+  <footer class="wrap"><span>© 2026 YIKEOO ENGLISH BASE</span><a href="../">返回首页 ↑</a><a href="https://kearss.com/">KEARS 主站 ↗</a></footer>
+</body>
+</html>
