@@ -1416,13 +1416,803 @@ const speeches = [
     "title": "求知若饥，虚心若愚",
     "englishTitle": "Stanford Commencement Address",
     "year": "2005",
-    "category": "精选片段",
+    "category": "完整原稿",
     "description": "关于人生、热爱与创造的三个故事。",
     "youtube": "jiHZqamCD8c",
     "source": "https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says",
     "sourceLabel": "斯坦福大学英文原稿",
-    "note": "此处为演讲精选短句，完整原文请通过来源链接阅读。",
+    "note": "根据提供的英文预备稿逐句翻译；视频现场措辞可能略有不同。中文为学习译文。",
     "sentences": [
+      [
+        "I’m honored to be with you today for your commencement from one of the finest universities in the world.",
+        "今天我很荣幸能与你们一起参加世界上最好的大学之一的毕业典礼。",
+        false
+      ],
+      [
+        "Truth be told, I never graduated from college.",
+        "说实话，我大学从未毕业。",
+        false
+      ],
+      [
+        "And this is the closest I’ve ever gotten to a college graduation.",
+        "这是我这一生最接近大学毕业的一次。",
+        false
+      ],
+      [
+        "Today I want to tell you three stories from my life.",
+        "今天我想讲三个我人生中的故事。",
+        false
+      ],
+      [
+        "That’s it.",
+        "就这些。",
+        false
+      ],
+      [
+        "No big deal.",
+        "不是什么大道理。",
+        false
+      ],
+      [
+        "Just three stories.",
+        "只是三个故事。",
+        false
+      ],
+      [
+        "The first story is about connecting the dots.",
+        "第一个故事是关于如何把人生中的点点滴滴连接起来。",
+        false
+      ],
+      [
+        "I dropped out of Reed College after the first six months, but then stayed around as a drop-in for another 18 months or so before I really quit.",
+        "在里德学院读了六个月后，我退了学，但又作为旁听生留了大约18个月，之后才真正离开。",
+        false
+      ],
+      [
+        "So why’d I drop out?",
+        "那么我为什么要退学呢？",
+        false
+      ],
+      [
+        "It started before I was born.",
+        "这在我出生之前就开始了。",
+        false
+      ],
+      [
+        "My biological mother was a young, unwed graduate student, and she decided to put me up for adoption.",
+        "我的亲生母亲是一位年轻的未婚研究生，她决定将我送人收养。",
+        false
+      ],
+      [
+        "She felt very strongly that I should be adopted by college graduates, so everything was all set for me to be adopted at birth by a lawyer and his wife.",
+        "她非常坚持要由大学毕业生收养我，因此一切都安排好了：我一出生，就由一名律师和他的妻子收养。",
+        false
+      ],
+      [
+        "Except that when I popped out, they decided at the last minute that they really wanted a girl.",
+        "可是当我出生时，他们在最后一刻决定，他们真正想要的是一个女孩。",
+        false
+      ],
+      [
+        "So my parents, who were on a waiting list, got a call in the middle of the night asking, “We’ve got an unexpected baby boy.",
+        "于是，我的养父母——他们当时在候补名单上——半夜接到一个电话：“我们这里意外来了一个男婴。",
+        false
+      ],
+      [
+        "Do you want him?”",
+        "你们想要他吗？”",
+        false
+      ],
+      [
+        "They said, “Of course.”",
+        "他们说：“当然。”",
+        false
+      ],
+      [
+        "My biological mother found out later that my mother had never graduated from college, and that my father had never graduated from high school.",
+        "我的亲生母亲后来才知道，我的母亲从未大学毕业，而我的父亲也从未高中毕业。",
+        false
+      ],
+      [
+        "She refused to sign the final adoption papers.",
+        "她拒绝签署最终的收养文件。",
+        false
+      ],
+      [
+        "She only relented a few months later, when my parents promised that I would go to college.",
+        "几个月后，我的养父母承诺会让我上大学，她才终于同意。",
+        false
+      ],
+      [
+        "This was the start in my life.",
+        "这就是我人生的开始。",
+        false
+      ],
+      [
+        "And 17 years later I did go to college.",
+        "17年后我上了大学。",
+        false
+      ],
+      [
+        "But I naively chose a college that was almost as expensive as Stanford.",
+        "但我天真地选择了一所几乎和斯坦福大学一样贵的大学。",
+        false
+      ],
+      [
+        "And all of my working class parents’ savings were being spent on my college tuition.",
+        "我工薪阶层父母的积蓄全都花在了我的大学学费上。",
+        false
+      ],
+      [
+        "After six months, I couldn’t see the value in it.",
+        "六个月后，我看不到继续读下去的价值。",
+        false
+      ],
+      [
+        "I had no idea what I wanted to do with my life, and no idea how college was going to help me figure it out.",
+        "我不知道我一生想做什么，也不知道大学将如何帮助我找到答案。",
+        false
+      ],
+      [
+        "And here I was, spending all of the money my parents had saved their entire life.",
+        "可我却在这里，花着父母一生攒下的全部积蓄。",
+        false
+      ],
+      [
+        "So I decided to drop out and trust that it would all work out OK.",
+        "所以我决定退学并相信一切都会好起来的。",
+        false
+      ],
+      [
+        "It was pretty scary at the time, but looking back it was one of the best decisions I ever made.",
+        "当时这非常可怕，但回想起来，这是我做过的最好的决定之一。",
+        false
+      ],
+      [
+        "The minute I dropped out, I could stop taking the required classes that didn’t interest me, and begin dropping in on the ones that looked far more interesting.",
+        "从我退学的那一刻起，我就可以停止参加我不感兴趣的必修课程，并开始旁听那些看起来更有趣的课程。",
+        false
+      ],
+      [
+        "It wasn’t all romantic.",
+        "但事情并不全都那么浪漫。",
+        false
+      ],
+      [
+        "I didn’t have a dorm room, so I slept on the floor in friends’ rooms.",
+        "我没有宿舍，所以我睡在朋友房间的地板上。",
+        false
+      ],
+      [
+        "I returned Coke bottles for the five-cent deposits to buy food with.",
+        "我靠退还可乐瓶换取每瓶五美分的押金，拿来买吃的。",
+        false
+      ],
+      [
+        "And I would walk the seven miles across town every Sunday night to get one good meal a week at the Hare Krishna temple.",
+        "每周日晚上，我都要穿过城市步行七英里，到哈瑞奎师那神庙吃上一周里唯一的一顿好饭。",
+        false
+      ],
+      [
+        "I loved it.",
+        "我很喜欢那样。",
+        false
+      ],
+      [
+        "And much of what I stumbled into, by following my curiosity and intuition, turned out to be priceless later on.",
+        "而我跟随好奇心和直觉偶然接触到的许多东西，后来证明都无比珍贵。",
+        false
+      ],
+      [
+        "Let me give you one example.",
+        "让我举一个例子。",
+        false
+      ],
+      [
+        "Reed College at that time offered perhaps the best calligraphy instruction in the country.",
+        "里德学院当时提供了也许是全国最好的书法教学。",
+        false
+      ],
+      [
+        "Throughout the campus, every poster, every label on every drawer, was beautifully hand-calligraphed.",
+        "在整个校园中，每张海报、每个抽屉上的每个标签都是精美的手写体。",
+        false
+      ],
+      [
+        "Because I had dropped out, and didn’t have to take the normal classes, I decided to take a calligraphy class to learn how to do this.",
+        "因为我已经退学了，不需要参加正常的课程，所以我决定参加书法班来学习如何做到这一点。",
+        false
+      ],
+      [
+        "I learned about serif and sans-serif typefaces, about varying the amount of space between different letter combinations, about what makes great typography great.",
+        "我学到了衬线和无衬线字体，学会调整不同字母组合之间的间距，也理解了优秀排版之所以优秀的原因。",
+        false
+      ],
+      [
+        "It was beautiful, historical, artistically subtle, in a way that science can’t capture.",
+        "它美丽、富有历史感，艺术细节精妙，科学无法将其完全捕捉。",
+        false
+      ],
+      [
+        "And I found it fascinating.",
+        "我觉得它迷人极了。",
+        false
+      ],
+      [
+        "None of this had even a hope of any practical application in my life.",
+        "当时看来，这些知识在我的生活中几乎不可能派上实际用场。",
+        false
+      ],
+      [
+        "But ten years later, when we were designing the first Macintosh computer, it all came back to me.",
+        "但十年后，当我们设计第一台麦金塔计算机时，这一切又回到了我的脑海中。",
+        false
+      ],
+      [
+        "And we designed it all into the Mac.",
+        "于是我们把这些知识都应用到了Mac的设计中。",
+        false
+      ],
+      [
+        "It was the first computer with beautiful typography.",
+        "它是第一台拥有漂亮字体排版的电脑。",
+        false
+      ],
+      [
+        "If I had never dropped in on that single course in college, the Mac would have never had multiple typefaces or proportionally spaced fonts.",
+        "如果我当年没有旁听那一门课，Mac就不会拥有多种字体或比例间距字体。",
+        false
+      ],
+      [
+        "And since Windows just copied the Mac, it’s likely that no personal computer would have them.",
+        "而由于Windows只是模仿了Mac，很可能就不会有任何个人电脑拥有这些功能。",
+        false
+      ],
+      [
+        "If I had never dropped out, I would have never dropped in on that calligraphy class, and personal computers might not have the wonderful typography that they do.",
+        "如果我没有退学，就不会旁听那门书法课，个人电脑可能也就不会拥有如今这样精美的排版。",
+        false
+      ],
+      [
+        "Of course, it was impossible to connect the dots looking forward when I was in college.",
+        "当然，我在大学时不可能向前看，就把人生的点滴连接起来。",
+        false
+      ],
+      [
+        "But it was very, very clear looking backwards, ten years later.",
+        "但是十年后回首往事，这些联系却变得非常、非常清晰。",
+        false
+      ],
+      [
+        "Again, you can’t connect the dots looking forward.",
+        "再说一次，你无法预先把人生的点滴连接起来。",
+        true
+      ],
+      [
+        "You can only connect them looking backwards, so you have to trust that the dots will somehow connect in your future.",
+        "只有回头看时你才能把它们串联起来，所以你必须相信，眼前的点滴会在未来以某种方式连接起来。",
+        true
+      ],
+      [
+        "You have to trust in something: your gut, destiny, life, karma, whatever.",
+        "你必须相信某种东西：直觉、命运、人生、因果，或者其他什么。",
+        false
+      ],
+      [
+        "Because believing that the dots will connect down the road will give you the confidence to follow your heart, even when it leads you off the well-worn path.",
+        "因为相信这些点滴终将在未来相连，会给你追随内心的信心，即便它引领你离开众人走惯的道路。",
+        false
+      ],
+      [
+        "And that will make all the difference.",
+        "而这会带来截然不同的人生。",
+        false
+      ],
+      [
+        "My second story is about love and loss.",
+        "我的第二个故事是关于爱与失去。",
+        false
+      ],
+      [
+        "I was lucky.",
+        "我很幸运。",
+        false
+      ],
+      [
+        "I found what I loved to do early in life.",
+        "我很早就发现了我喜欢做的事情。",
+        false
+      ],
+      [
+        "Woz and I started Apple in my parents’ garage when I was 20.",
+        "我 20 岁时，沃兹和我在父母的车库里创办了苹果公司。",
+        false
+      ],
+      [
+        "We worked hard, and in ten years Apple had grown from just the two of us in a garage into a $2 billion company with over 4,000 employees.",
+        "我们努力工作，十年间，苹果从车库里只有我们两个人，成长为一家拥有四千多名员工、市值二十亿美元的公司。",
+        false
+      ],
+      [
+        "We just released our finest creation—the Macintosh—a year earlier, and I’d just turned 30.",
+        "一年前，我们刚刚发布了我们最好的作品——Macintosh，而我刚刚满 30 岁。",
+        false
+      ],
+      [
+        "And then I got fired.",
+        "然后我被解雇了。",
+        false
+      ],
+      [
+        "How can you get fired from a company you started?",
+        "你怎么会被你创办的公司解雇？",
+        false
+      ],
+      [
+        "Well, as Apple grew, we hired someone—who I thought was very talented—to run the company with me.",
+        "嗯，随着苹果公司的发展，我们聘请了一个我认为非常有才华的人来与我一起管理公司。",
+        false
+      ],
+      [
+        "And for the first year or so, things went well.",
+        "在第一年左右的时间里，事情进展顺利。",
+        false
+      ],
+      [
+        "But then our visions of the future began to diverge.",
+        "但随后我们对未来的愿景开始出现分歧。",
+        false
+      ],
+      [
+        "And eventually we had a falling out.",
+        "最终我们闹翻了。",
+        false
+      ],
+      [
+        "When we did, our board of directors sided with him.",
+        "当我们发生分歧时，董事会站在了他那一边。",
+        false
+      ],
+      [
+        "And so at 30 I was out, and very publicly out.",
+        "于是，30岁的我被赶出了公司，而且这件事人尽皆知。",
+        false
+      ],
+      [
+        "What had been the focus of my entire adult life was gone, and it was devastating.",
+        "我整个成年生活的重心消失了，这对我是毁灭性的打击。",
+        false
+      ],
+      [
+        "I really didn’t know what to do for a few months.",
+        "有几个月我真的不知道该怎么办。",
+        false
+      ],
+      [
+        "I felt that I had let the previous generation of entrepreneurs down, that I had dropped the baton as it was being passed to me.",
+        "我觉得自己辜负了前一代企业家，仿佛他们把接力棒交到我手里时，我却把它掉在了地上。",
+        false
+      ],
+      [
+        "I met with David Packard and Bob Noyce, and tried to apologize for screwing up so badly.",
+        "我会见了大卫·帕卡德和鲍勃·诺伊斯，并试图为搞砸了这么严重而道歉。",
+        false
+      ],
+      [
+        "I was a very public failure, and I even thought about running away from the Valley.",
+        "我的失败众人皆知，我甚至想过逃离硅谷。",
+        false
+      ],
+      [
+        "But something slowly began to dawn on me: I still loved what I did.",
+        "但我渐渐意识到一件事：我依然热爱自己所做的一切。",
+        false
+      ],
+      [
+        "The turn of events at Apple had not changed that one bit.",
+        "苹果公司的事态发展并没有改变这一点。",
+        false
+      ],
+      [
+        "I’d been rejected, but I was still in love.",
+        "我被拒绝了，但我仍然热爱这一切。",
+        false
+      ],
+      [
+        "And so I decided to start over.",
+        "所以我决定重新开始。",
+        false
+      ],
+      [
+        "I didn’t see it then, but it turned out that getting fired from Apple was the best thing that could have ever happened to me.",
+        "我当时并没有意识到，但后来证明，被苹果解雇是我人生中可能发生的最好的事情。",
+        false
+      ],
+      [
+        "The heaviness of being successful was replaced by the lightness of being a beginner again, less sure about everything.",
+        "成功带来的沉重，被重新成为初学者的轻松取代了；我对一切不再那么确定。",
+        false
+      ],
+      [
+        "It freed me to enter one of the most creative periods of my life.",
+        "这让我得以进入人生中最具创造力的时期之一。",
+        false
+      ],
+      [
+        "During the next five years, I started a company named NeXT, another company named Pixar, and fell in love with an amazing woman who would become my wife.",
+        "在接下来的五年里，我创办了NeXT，又创办了皮克斯，并爱上了一位了不起的女子，她后来成为我的妻子。",
+        false
+      ],
+      [
+        "Pixar went on to create the world’s first computer-animated feature film, Toy Story, and is now the most successful animation studio in the world.",
+        "皮克斯继续创作了世界上第一部计算机动画故事片《玩具总动员》，并且现在是世界上最成功的动画工作室。",
+        false
+      ],
+      [
+        "In a remarkable turn of events, Apple bought NeXT, and I returned to Apple.",
+        "事情发生了戏剧性的转折：苹果收购了NeXT，我也回到了苹果。",
+        false
+      ],
+      [
+        "And the technology we developed at NeXT is at the heart of Apple’s current renaissance.",
+        "我们在 NeXT 开发的技术是苹果当前复兴的核心。",
+        false
+      ],
+      [
+        "And Laurene and I have a wonderful family together.",
+        "劳伦和我还建立了一个美好的家庭。",
+        false
+      ],
+      [
+        "I’m pretty sure none of this would have happened if I hadn’t been fired from Apple.",
+        "我很确定如果我没有被苹果公司解雇，这一切都不会发生。",
+        false
+      ],
+      [
+        "It was awful-tasting medicine, but I guess the patient needed it.",
+        "这是一剂苦药，但我想病人需要它。",
+        false
+      ],
+      [
+        "Sometimes life’s gonna hit you in the head with a brick.",
+        "有时候，生活会用一块砖头狠狠砸你的脑袋。",
+        true
+      ],
+      [
+        "Don’t lose faith.",
+        "不要失去信心。",
+        true
+      ],
+      [
+        "I’m convinced that the only thing that kept me going was that I loved what I did.",
+        "我确信唯一让我继续前进的就是我热爱我所做的事情。",
+        false
+      ],
+      [
+        "You’ve got to find what you love—and that is as true for work as it is for your lovers.",
+        "你们必须找到自己热爱的东西——这对工作和爱情都同样适用。",
+        false
+      ],
+      [
+        "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
+        "工作会占据你人生中很大一部分，而获得真正满足的唯一方式，就是做你认为伟大的工作。",
+        false
+      ],
+      [
+        "And the only way to do great work is to love what you do.",
+        "而成就伟大工作的唯一途径，就是热爱你所做的事。",
+        true
+      ],
+      [
+        "If you haven’t found it yet, keep looking—and don’t settle.",
+        "如果还没有找到，就继续寻找，别将就。",
+        true
+      ],
+      [
+        "As with all matters of the heart, you’ll know when you find it.",
+        "就像所有关乎内心的事一样，找到时你自然会知道。",
+        false
+      ],
+      [
+        "And like any great relationship, it just gets better and better as the years roll on.",
+        "就像任何伟大的关系一样，随着岁月的流逝，它只会变得越来越好。",
+        false
+      ],
+      [
+        "So keep looking.",
+        "所以继续寻找。",
+        true
+      ],
+      [
+        "Don’t settle.",
+        "不要将就。",
+        true
+      ],
+      [
+        "My third story is about death.",
+        "我的第三个故事是关于死亡的。",
+        false
+      ],
+      [
+        "When I was 17, I read a quote that went something like, “If you live each day as if it was your last, someday you’ll most certainly be right.”",
+        "当我 17 岁的时候，我读过一句话，大概是这样的：“如果你把每一天都当作最后一天来生活，那么有一天你肯定是对的。”",
+        false
+      ],
+      [
+        "It made an impression on me.",
+        "这给我留下了深刻的印象。",
+        false
+      ],
+      [
+        "And since then, for the past 33 years, I have looked in the mirror every morning and asked myself, “If today were the last day of my life, would I wanna do what I am about to do today?”",
+        "从那以后，33年来，我每天早上都对着镜子问自己：“如果今天是我生命的最后一天，我还愿意做今天准备做的事吗？”",
+        false
+      ],
+      [
+        "And whenever the answer has been no for too many days in a row, I know I need to change something.",
+        "每当连续许多天答案都是“不”的时候，我就知道自己需要作出改变。",
+        false
+      ],
+      [
+        "Remembering that I’ll be dead soon is the most important tool I’ve ever encountered to help me make the big choices in life.",
+        "提醒自己终有一死，是我所知道的帮助自己作出人生重大选择的最重要工具。",
+        false
+      ],
+      [
+        "Because almost everything, all external expectations, all pride, all fear of embarrassment or failure—these things just fall away in the face of death, leaving only what is truly important.",
+        "因为几乎所有的一切——外界的期待、自尊，以及对尴尬或失败的恐惧——在死亡面前都会消失，只留下真正重要的东西。",
+        false
+      ],
+      [
+        "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose.",
+        "提醒自己终有一死，是我所知道的避免陷入“你还有东西可以失去”这一思维陷阱的最好办法。",
+        false
+      ],
+      [
+        "You are already naked.",
+        "你已经赤裸无物。",
+        false
+      ],
+      [
+        "There is no reason not to follow your heart.",
+        "你没有理由不追随自己的内心。",
+        false
+      ],
+      [
+        "About a year ago, I was diagnosed with cancer.",
+        "大约一年前，我被诊断患有癌症。",
+        false
+      ],
+      [
+        "I had a scan at 7:30 in the morning, and it clearly showed a tumor on my pancreas.",
+        "早上七点半我做了扫描，结果清楚地显示我的胰腺上有一个肿瘤。",
+        false
+      ],
+      [
+        "I didn’t even know what a pancreas was.",
+        "我什至不知道胰腺是什么。",
+        false
+      ],
+      [
+        "The doctors told me this was almost certainly a type of cancer that is incurable, and that I should expect to live no longer than three to six months.",
+        "医生告诉我，这几乎肯定是一种无法治愈的癌症，我的生命可能只剩三到六个月。",
+        false
+      ],
+      [
+        "My doctor advised me to go home and get my affairs in order, which is doctors’ code for “Prepare to die.”",
+        "医生建议我回家整理好自己的事务；在医生的用语里，这意味着“准备迎接死亡”。",
+        false
+      ],
+      [
+        "It means to try and tell your kids everything you thought you’d have the next ten years to tell them in just a few months.",
+        "这意味着要在短短几个月里，尽量把你原以为今后十年才能告诉孩子的一切都告诉他们。",
+        false
+      ],
+      [
+        "It means to make sure everything is buttoned up so that it will be as easy as possible for your family.",
+        "这意味着确保一切安排妥当，让你的家人今后尽可能少受些困扰。",
+        false
+      ],
+      [
+        "It means to say your goodbyes.",
+        "这意味着要和大家告别。",
+        false
+      ],
+      [
+        "I lived with that diagnosis all day.",
+        "我带着这个诊断结果度过了整整一天。",
+        false
+      ],
+      [
+        "Later that evening I had a biopsy, where they stuck an endoscope down my throat, through my stomach, and into my intestines, put a needle into my pancreas, and got a few cells from the tumor.",
+        "那天晚上晚些时候，我接受了活检：医生把内窥镜从喉咙伸进胃，再到肠道，用针从胰腺肿瘤里取出了几颗细胞。",
+        false
+      ],
+      [
+        "I was sedated, but my wife, who was there, told me that when they viewed the cells under a microscope, the doctors started crying because it turned out to be a very rare form of pancreatic cancer that is curable with surgery.",
+        "我当时被注射了镇静剂，但在场的妻子告诉我，医生在显微镜下观察细胞时哭了起来，因为结果显示这是一种极罕见、可以通过手术治愈的胰腺癌。",
+        false
+      ],
+      [
+        "I had the surgery, and thankfully I’m fine now.",
+        "我接受了手术，谢天谢地，现在我很好。",
+        false
+      ],
+      [
+        "This was the closest I’ve been to facing death, and I hope it’s the closest I get for a few more decades.",
+        "这是我离死亡最近的一次，我希望接下来的几十年里不会有比这更接近死亡的时候。",
+        false
+      ],
+      [
+        "Having lived through it, I can now say this to you with a bit more certainty than when death was a useful but purely intellectual concept.",
+        "经历这一切之后，我现在对你们说这些话，比当死亡只是一个有用但纯属理论的概念时，更有把握。",
+        false
+      ],
+      [
+        "No one wants to die.",
+        "没有人想死。",
+        false
+      ],
+      [
+        "Even people who want to go to heaven don’t want to die to get there.",
+        "即使是想上天堂的人，也不想为了去天堂而死。",
+        false
+      ],
+      [
+        "And yet, death is the destination we all share.",
+        "然而，死亡是我们共同的终点。",
+        false
+      ],
+      [
+        "No one has ever escaped it.",
+        "没有人能够逃脱它。",
+        false
+      ],
+      [
+        "And that is as it should be, because death is very likely the single best invention of life.",
+        "而这本该如此，因为死亡很可能是生命中最好的发明。",
+        false
+      ],
+      [
+        "It’s life’s change agent.",
+        "它是生命的变革者。",
+        false
+      ],
+      [
+        "It clears out the old to make way for the new.",
+        "它清除旧的，为新的让路。",
+        false
+      ],
+      [
+        "Right now, the new is you.",
+        "现在，新的就是你们。",
+        false
+      ],
+      [
+        "But someday, not too long from now, you will gradually become the old and be cleared away.",
+        "但在不太遥远的某一天，你们也会逐渐变成旧的一代，被清理出场。",
+        false
+      ],
+      [
+        "Sorry to be so dramatic, but it’s quite true.",
+        "抱歉说得太戏剧化了，但这是千真万确的。",
+        false
+      ],
+      [
+        "Your time is limited, so don’t waste it living someone else’s life.",
+        "你的时间有限，所以不要浪费时间过别人的生活。",
+        true
+      ],
+      [
+        "Don’t be trapped by dogma, which is living with the results of other people’s thinking.",
+        "不要被教条束缚——那意味着活在别人思考的结果里。",
+        false
+      ],
+      [
+        "Don’t let the noise of others’ opinions drown out your own inner voice.",
+        "不要让他人意见的喧嚣淹没你内心的声音。",
+        true
+      ],
+      [
+        "And most important, have the courage to follow your heart and intuition.",
+        "最重要的是，有勇气追随你的内心和直觉。",
+        true
+      ],
+      [
+        "They somehow already know what you truly want to become.",
+        "你的内心和直觉似乎早已知道你真正想成为什么样的人。",
+        false
+      ],
+      [
+        "Everything else is secondary.",
+        "其他一切都是次要的。",
+        false
+      ],
+      [
+        "When I was young, there was an amazing publication called The Whole Earth Catalog, which was one of the bibles of my generation.",
+        "我年轻时有一份很棒的刊物，叫《全球概览》，它是我们这一代人的精神读物之一。",
+        false
+      ],
+      [
+        "It was created by a fellow named Stewart Brand, not far from here in Menlo Park.",
+        "它是由一位名叫斯图尔特·布兰德的人在离这里不远的门洛帕克创办的。",
+        false
+      ],
+      [
+        "And he brought it to life with his poetic touch.",
+        "他用富有诗意的方式赋予了它生命。",
+        false
+      ],
+      [
+        "This was in the late sixties, before personal computers and desktop publishing, so it was all made with typewriters, scissors, and Polaroid cameras.",
+        "那是在六十年代末，个人电脑和桌面出版还没有出现，所以一切都是用打字机、剪刀和宝丽来相机制作的。",
+        false
+      ],
+      [
+        "It was sort of like Google in paperback form, 35 years before Google came along.",
+        "它有点像平装本形式的 Google，比 Google 早了 35 年。",
+        false
+      ],
+      [
+        "It was idealistic, overflowing with neat tools and great notions.",
+        "它充满理想主义，里面有各种实用的工具和精彩的想法。",
+        false
+      ],
+      [
+        "Stewart and his team put out several issues of The Whole Earth Catalog.",
+        "斯图尔特和他的团队出版了几期《全球概览》。",
+        false
+      ],
+      [
+        "And then, when it had run its course, they put out a final issue.",
+        "后来，这份刊物完成了它的使命，他们出版了最后一期。",
+        false
+      ],
+      [
+        "It was the mid-1970s, and I was your age.",
+        "那是20世纪70年代中期，我和你们现在一样年轻。",
+        false
+      ],
+      [
+        "On the back cover of their final issue was a photograph of an early-morning country road—the kind you might find yourself hitchhiking on if you were so adventurous.",
+        "最后一期的封底是一张清晨乡间公路的照片——如果你足够喜欢冒险，也许会在那样的路上搭车旅行。",
+        false
+      ],
+      [
+        "Beneath it were the words “Stay hungry.",
+        "照片下面写着：“求知若饥。",
+        true
+      ],
+      [
+        "Stay foolish.”",
+        "虚心若愚。”",
+        true
+      ],
+      [
+        "It was their farewell message as they signed off.",
+        "这是他们停刊时留下的告别语。",
+        false
+      ],
+      [
+        "“Stay hungry.",
+        "“求知若饥。",
+        true
+      ],
+      [
+        "Stay foolish.”",
+        "虚心若愚。”",
+        true
+      ],
+      [
+        "And I have always wished that for myself.",
+        "我一直以此勉励自己。",
+        false
+      ],
+      [
+        "And now, as you graduate to begin anew, I wish that for you.",
+        "现在，当你们毕业并开始新的旅程时，我也把这句话送给你们。",
+        false
+      ],
       [
         "Stay hungry.",
         "求知若饥。",
@@ -1432,6 +2222,11 @@ const speeches = [
         "Stay foolish.",
         "虚心若愚。",
         true
+      ],
+      [
+        "Thank you all very much.",
+        "非常感谢大家。",
+        false
       ]
     ]
   },
@@ -1441,22 +2236,742 @@ const speeches = [
     "title": "成为建设者",
     "englishTitle": "Stanford Commencement Address",
     "year": "2019",
-    "category": "精选片段",
+    "category": "完整原稿",
     "description": "导师能够指引方向，你仍需要走出自己的路。",
     "youtube": "2C2VJwGBRRw",
     "source": "https://news.stanford.edu/stories/2019/06/remarks-tim-cook-2019-stanford-commencement",
     "sourceLabel": "斯坦福大学英文原稿",
-    "note": "此处为演讲精选短句；“你的时间有限”是库克引用乔布斯的话。完整原文请通过来源链接阅读。",
+    "note": "根据提供的英文预备稿逐句翻译；视频现场措辞可能略有不同。中文为学习译文。",
     "sentences": [
       [
-        "Your time is limited...",
-        "你的时间有限……",
+        "Good morning, Class of 2019!",
+        "2019级同学们早上好！",
+        false
+      ],
+      [
+        "Thank you, President Tessier-Lavigne, for that generous introduction.",
+        "感谢泰西埃-拉维尼校长如此热情的介绍。",
+        false
+      ],
+      [
+        "I’ll do my best to earn it.",
+        "我会尽力不辜负您的赞誉。",
+        false
+      ],
+      [
+        "Before I begin, I want to recognize everyone whose hard work made this celebration possible, including the groundskeepers, ushers, volunteers and crew.",
+        "在开始之前，我想感谢所有为这次庆祝活动付出辛勤努力的人，包括场地管理员、引座员、志愿者和工作人员。",
+        false
+      ],
+      [
+        "Thank you.",
+        "谢谢。",
+        false
+      ],
+      [
+        "I’m honored and frankly a little astonished to be invited to join you for this most meaningful of occasions.",
+        "我很荣幸，坦率地说，有点惊讶能够受邀参加你们这个最有意义的场合。",
+        false
+      ],
+      [
+        "Graduates, this is your day.",
+        "毕业生们，今天是你们的日子。",
+        false
+      ],
+      [
+        "But you didn’t get here alone.",
+        "但你们不是独自走到今天的。",
+        false
+      ],
+      [
+        "Family and friends, teachers, mentors, loved ones, and, of course, your parents, all worked together to make you possible and they share your joy today.",
+        "家人、朋友、老师、导师、亲人，当然还有你们的父母，共同努力成就了今天的你们；他们也在分享你们今天的喜悦。",
+        false
+      ],
+      [
+        "Here on Father’s Day, let’s give the dads in particular a round of applause.",
+        "在父亲节这一天，让我们特别向爸爸们致以热烈的掌声。",
+        false
+      ],
+      [
+        "Stanford is near to my heart, not least because I live just a mile and a half from here.",
+        "斯坦福大学在我心中有特殊的位置，原因之一是我就住在离这里一英里半的地方。",
+        false
+      ],
+      [
+        "Of course, if my accent hasn’t given it away, for the first part of my life I had to admire this place from a distance.",
+        "当然，如果我的口音还没有透露这一点的话，我人生的前半段只能从远处仰望这里。",
+        false
+      ],
+      [
+        "I went to school on the other side of the country, at Auburn University, in the heart of landlocked Eastern Alabama.",
+        "我在美国另一边的奥本大学上学，位于阿拉巴马州东部内陆地区的中心地带。",
+        false
+      ],
+      [
+        "You may not know this, but I was on the sailing team all four years.",
+        "你可能不知道，我四年都在帆船队。",
+        false
+      ],
+      [
+        "It wasn’t easy.",
+        "这并不容易。",
+        false
+      ],
+      [
+        "Back then, the closest marina was a three-hour drive away.",
+        "那时，最近的游艇码头也有三小时车程。",
+        false
+      ],
+      [
+        "For practice, most of the time we had to wait for a heavy rainstorm to flood the football field.",
+        "为了训练，大多数时候我们不得不等待一场大暴雨淹没足球场。",
+        false
+      ],
+      [
+        "And tying knots is hard!",
+        "而且打结很难！",
+        false
+      ],
+      [
+        "Who knew?",
+        "谁能想到呢？",
+        false
+      ],
+      [
+        "Yet somehow, against all odds, we managed to beat Stanford every time.",
+        "然而，不知何故，尽管困难重重，我们每次都设法击败斯坦福大学。",
+        false
+      ],
+      [
+        "We must have gotten lucky with the wind.",
+        "我们一定是碰巧遇上了好风。",
+        false
+      ],
+      [
+        "Kidding aside, I know the real reason I’m here, and I don’t take it lightly.",
+        "玩笑归玩笑，我知道自己今天受邀来此的真正原因，也绝不敢轻视这份邀请。",
+        false
+      ],
+      [
+        "Stanford and Silicon Valley’s roots are woven together.",
+        "斯坦福和硅谷的根系交织在一起。",
+        false
+      ],
+      [
+        "We’re part of the same ecosystem.",
+        "我们是同一生态系统的一部分。",
+        false
+      ],
+      [
+        "It was true when Steve stood on this stage 14 years ago, it’s true today, and, presumably, it’ll be true for a while longer still.",
+        "14年前史蒂夫站在这个舞台上时是如此，今天仍然如此，而且可以预见，今后一段时间也会如此。",
+        false
+      ],
+      [
+        "The past few decades have lifted us together.",
+        "过去几十年让我们共同进步。",
+        false
+      ],
+      [
+        "But today we gather at a moment that demands some reflection.",
+        "但今天我们聚集在一个需要反思的时刻。",
+        false
+      ],
+      [
+        "Fueled by caffeine and code, optimism and idealism, conviction and creativity, generations of Stanford graduates (and dropouts) have used technology to remake our society.",
+        "靠着咖啡因与代码、乐观与理想、信念与创造力，一代又一代斯坦福毕业生（以及退学生）用技术重塑了我们的社会。",
+        false
+      ],
+      [
+        "But I think you would agree that, lately, the results haven’t been neat or straightforward.",
+        "但我想你们会同意，最近这些成果并不那么清晰简单。",
+        false
+      ],
+      [
+        "In just the four years that you’ve been here at the Farm, things feel like they have taken a sharp turn.",
+        "就在你们在斯坦福校园度过的这四年里，情况似乎发生了急剧的转变。",
+        false
+      ],
+      [
+        "Crisis has tempered optimism.",
+        "危机削弱了乐观情绪。",
+        false
+      ],
+      [
+        "Consequences have challenged idealism.",
+        "技术带来的后果挑战了理想主义。",
+        false
+      ],
+      [
+        "And reality has shaken blind faith.",
+        "而现实已经动摇了盲目信仰。",
+        false
+      ],
+      [
+        "And yet we are all still drawn here.",
+        "然而我们仍然被吸引到这里。",
+        false
+      ],
+      [
+        "For good reason.",
+        "而且理由充分。",
+        false
+      ],
+      [
+        "Big dreams live here, as do the genius and passion to make them real.",
+        "这里孕育着伟大的梦想，也有将梦想变为现实的才智与热情。",
+        false
+      ],
+      [
+        "In an age of cynicism, this place still believes that the human capacity to solve problems is boundless.",
+        "在犬儒主义的时代，这个地方仍然相信人类解决问题的能力是无限的。",
+        false
+      ],
+      [
+        "But so, it seems, is our potential to create them.",
+        "但看来，我们制造问题的能力也同样无限。",
+        false
+      ],
+      [
+        "That’s what I’m interested in talking about today.",
+        "这就是我今天有兴趣谈论的内容。",
+        false
+      ],
+      [
+        "Because if I’ve learned one thing, it’s that technology doesn’t change who we are, it magnifies who we are, the good and the bad.",
+        "因为如果我学到了什么，那就是技术不会改变我们的本性，而是会放大我们的本性，无论善恶。",
+        false
+      ],
+      [
+        "Our problems – in technology, in politics, wherever – are human problems.",
+        "无论是技术问题、政治问题，还是其他领域的问题，归根结底都是人的问题。",
+        false
+      ],
+      [
+        "From the Garden of Eden to today, it’s our humanity that got us into this mess, and it’s our humanity that’s going to have to get us out.",
+        "从伊甸园到今天，是人性让我们陷入困境，也必须靠人性带领我们走出去。",
+        false
+      ],
+      [
+        "If you want credit for the good, take responsibility for the bad",
+        "想要分享成功的功劳，就要承担失败的责任",
+        false
+      ],
+      [
+        "First things first, here’s a plain fact.",
+        "首先，这是一个简单的事实。",
+        false
+      ],
+      [
+        "Silicon Valley is responsible for some of the most revolutionary inventions in modern history.",
+        "硅谷创造了现代历史上一些最具革命性的发明。",
+        false
+      ],
+      [
+        "From the first oscillator built in the Hewlett-Packard garage to the iPhones that I know you’re holding in your hands.",
+        "从在惠普车库里制造的第一台振荡器，到我知道你们手中握着的iPhone。",
+        false
+      ],
+      [
+        "Social media, shareable video, snaps and stories that connect half the people on Earth.",
+        "社交媒体、可分享的视频、照片和故事，把地球上一半的人联系在一起。",
+        false
+      ],
+      [
+        "They all trace their roots to Stanford’s backyard.",
+        "它们都可以追溯到斯坦福的后院。",
+        false
+      ],
+      [
+        "But lately, it seems, this industry is becoming better known for a less noble innovation: the belief that you can claim credit without accepting responsibility.",
+        "但最近，这个行业似乎因一种不那么崇高的创新而变得更加出名：相信你可以在不承担责任的情况下获得荣誉。",
+        false
+      ],
+      [
+        "We see it every day now, with every data breach, every privacy violation, every blind eye turned to hate speech.",
+        "如今我们每天都能看到：每一次数据泄露、每一次侵犯隐私，以及每一次对仇恨言论视而不见。",
+        false
+      ],
+      [
+        "Fake news poisoning our national conversation.",
+        "假新闻正在毒害全国的公共讨论。",
+        false
+      ],
+      [
+        "The false promise of miracles in exchange for a single drop of your blood.",
+        "用你的一滴血来换取奇迹的虚假承诺。",
+        false
+      ],
+      [
+        "Too many seem to think that good intentions excuse away harmful outcomes.",
+        "太多人似乎认为，只要出发点是好的，就可以为有害的后果开脱。",
+        false
+      ],
+      [
+        "But whether you like it or not, what you build and what you create define who you are.",
+        "但不管你喜不喜欢，你建造和创造的东西，都会定义你是谁。",
+        false
+      ],
+      [
+        "It feels a bit crazy that anyone should have to say this.",
+        "居然还需要有人说出这一点，这让人觉得有些荒唐。",
+        false
+      ],
+      [
+        "But if you’ve built a chaos factory, you can’t dodge responsibility for the chaos.",
+        "但如果你建造了一个混乱工厂，你就无法逃避造成混乱的责任。",
+        false
+      ],
+      [
+        "Taking responsibility means having the courage to think things through.",
+        "承担责任意味着有勇气把事情想清楚。",
+        false
+      ],
+      [
+        "And there are few areas where this is more important than privacy.",
+        "并且很少有领域比隐私更重要。",
+        false
+      ],
+      [
+        "If we accept as normal and unavoidable that everything in our lives can be aggregated, sold, or even leaked in the event of a hack, then we lose so much more than data.",
+        "如果我们把生活中的一切都可能被汇总、出售，甚至在遭遇黑客攻击时泄露，视为正常且不可避免，那么我们失去的将远不止数据。",
+        false
+      ],
+      [
+        "We lose the freedom to be human.",
+        "我们会失去作为人的自由。",
+        false
+      ],
+      [
+        "Think about what’s at stake.",
+        "想想这里面究竟关乎什么。",
+        false
+      ],
+      [
+        "Everything you write, everything you say, every topic of curiosity, every stray thought, every impulsive purchase, every moment of frustration or weakness, every gripe or complaint, every secret shared in confidence.",
+        "你写下的每一句话、说出的每一句话、每一个好奇的话题、每一个转瞬即逝的念头、每一次冲动购物、每一刻沮丧或软弱、每一声抱怨，以及每一个私下分享的秘密。",
+        false
+      ],
+      [
+        "In a world without digital privacy, even if you have done nothing wrong other than think differently, you begin to censor yourself.",
+        "在一个没有数字隐私的世界里，即使你除了想法不同之外什么错也没做，也会开始审查自己。",
+        false
+      ],
+      [
+        "Not entirely at first.",
+        "一开始不会全面如此。",
+        false
+      ],
+      [
+        "Just a little, bit by bit.",
+        "只是一点点，一点一点地改变。",
+        false
+      ],
+      [
+        "To risk less, to hope less, to imagine less, to dare less, to create less, to try less, to talk less, to think less.",
+        "少冒一点险，少抱一点希望，少一点想象，少一点勇气，少一点创造、尝试、表达和思考。",
+        false
+      ],
+      [
+        "The chilling effect of digital surveillance is profound, and it touches everything.",
+        "数字监控的寒蝉效应影响深远，波及生活的方方面面。",
+        false
+      ],
+      [
+        "What a small, unimaginative world we would end up with.",
+        "最终我们会生活在一个多么狭小、缺乏想象力的世界里。",
+        false
+      ],
+      [
+        "Not entirely at first.",
+        "起初不会完全如此。",
+        false
+      ],
+      [
+        "Just a little, bit by bit.",
+        "它会一点点、一点点地发生。",
+        false
+      ],
+      [
+        "Ironically, it’s the kind of environment that would have stopped Silicon Valley before it had even gotten started.",
+        "讽刺的是，这样的环境甚至会让硅谷在起步之前就被扼杀。",
+        false
+      ],
+      [
+        "We deserve better.",
+        "我们值得拥有更好的环境。",
+        false
+      ],
+      [
+        "You deserve better.",
+        "你们值得拥有更好的环境。",
+        false
+      ],
+      [
+        "If we believe that freedom means an environment where great ideas can take root, where they can grow and be nurtured without fear of irrational restrictions or burdens, then it’s our duty to change course, because your generation ought to have the same freedom to shape the future as the generation that came before.",
+        "如果我们相信，自由意味着让伟大的想法能够扎根、成长并得到培育，而不必害怕不合理的限制或负担，那么改变方向就是我们的责任；因为你们这一代人理应拥有和前一代同样的自由，去塑造未来。",
+        false
+      ],
+      [
+        "Graduates, at the very least, learn from these mistakes.",
+        "毕业生们，至少要从这些错误中吸取教训。",
+        false
+      ],
+      [
+        "If you want to take credit, first learn to take responsibility.",
+        "要想获得功劳，首先要学会承担责任。",
         true
       ],
       [
-        "Your mentors may leave you prepared, but they can’t leave you ready.",
-        "导师也许能帮你做好准备，却不能让你完全准备好面对未来。",
+        "Be a builder",
+        "成为建设者",
         true
+      ],
+      [
+        "Now, a lot of you – the vast majority – won’t find yourselves in tech at all.",
+        "你们中很多人——绝大多数人——最终都不会进入科技行业。",
+        false
+      ],
+      [
+        "That’s as it should be.",
+        "这本来就很正常。",
+        false
+      ],
+      [
+        "We need your minds at work far and wide, because our challenges are great, and they can’t be solved by any single industry.",
+        "我们需要你们在各个领域施展才智，因为我们面临的挑战很大，任何单一行业都无法解决。",
+        false
+      ],
+      [
+        "No matter where you go, no matter what you do, I know you will be ambitious.",
+        "无论你去哪里，无论你做什么，我知道你都会雄心勃勃。",
+        false
+      ],
+      [
+        "You wouldn’t be here today if you weren’t.",
+        "否则，你们今天也不会在这里。",
+        false
+      ],
+      [
+        "Match that ambition with humility – a humility of purpose.",
+        "让这份雄心与谦逊同行——对自己的使命抱持谦逊。",
+        false
+      ],
+      [
+        "That doesn’t mean being tamer, being smaller, being less in what you do.",
+        "这并不意味着你们做事要更温顺、更渺小，或是降低自己的追求。",
+        false
+      ],
+      [
+        "It’s the opposite, it’s about serving something greater.",
+        "恰恰相反，它意味着服务于比自己更伟大的事业。",
+        false
+      ],
+      [
+        "The author Madeleine L’Engle wrote, “Humility is throwing oneself away in complete concentration on something or someone else.”",
+        "作家玛德琳·伦格尔写道：“谦逊，就是全神贯注于某件事或某个人，以至于忘记自己。”",
+        false
+      ],
+      [
+        "In other words, whatever you do with your life, be a builder.",
+        "换句话说，无论你一生做什么，都要成为建设者。",
+        true
+      ],
+      [
+        "You don’t have to start from scratch to build something monumental.",
+        "要建造一项伟大的事业，你不必事事从零开始。",
+        false
+      ],
+      [
+        "And, conversely, the best founders – the ones whose creations last and whose reputations grow rather than shrink with passing time – they spend most of their time building, piece by piece.",
+        "反过来说，最优秀的创始人——那些创造能够长久留存，声誉随时间增长而非消退的人——会把大部分时间花在一点一滴的建设上。",
+        false
+      ],
+      [
+        "Builders are comfortable in the belief that their life’s work will one day be bigger than them – bigger than any one person.",
+        "建设者能够坦然相信，他们毕生的事业终有一天会超越自己，超越任何一个人。",
+        false
+      ],
+      [
+        "They’re mindful that its effects will span generations.",
+        "他们明白，事业的影响将跨越几代人。",
+        false
+      ],
+      [
+        "That’s not an accident.",
+        "这并非偶然。",
+        false
+      ],
+      [
+        "In a way, it’s the whole point.",
+        "从某种意义上说，这正是全部的意义所在。",
+        false
+      ],
+      [
+        "In a few days we will mark the 50th anniversary of the riots at Stonewall.",
+        "几天后，我们将纪念石墙骚乱 50 周年。",
+        false
+      ],
+      [
+        "When the patrons of the Stonewall Inn showed up that night – people of all races, gay and transgender, young and old – they had no idea what history had in store for them.",
+        "当那天晚上石墙旅馆的顾客出现时——所有种族的人，同性恋和变性者，年轻人和老年人——他们不知道历史为他们准备了什么。",
+        false
+      ],
+      [
+        "It would have seemed foolish to dream it.",
+        "连做这样的梦都仿佛是一种奢望。",
+        false
+      ],
+      [
+        "When the door was busted open by police, it was not the knock of opportunity or the call of destiny.",
+        "当警察破门而入时，那并不是机遇的敲门声，也不是命运的召唤。",
+        false
+      ],
+      [
+        "It was just another instance of the world telling them that they ought to feel worthless for being different.",
+        "那只是世界又一次告诉他们：因为与众不同，他们就应该觉得自己一文不值。",
+        false
+      ],
+      [
+        "But the group gathered there felt something strengthen in them.",
+        "但聚集在那里的人，感到心中有一种力量正在增强。",
+        false
+      ],
+      [
+        "A conviction that they deserved something better than the shadows, and better than oblivion.",
+        "他们坚信，自己值得拥有比活在阴影和被遗忘中更好的生活。",
+        false
+      ],
+      [
+        "And if it wasn’t going to be given, then they were going to have to build it themselves.",
+        "如果别人不愿给予，他们就必须亲手创造。",
+        false
+      ],
+      [
+        "I was 8 years old and a thousand miles away when Stonewall happened.",
+        "石墙事件发生时，我只有8岁，远在一千英里之外。",
+        false
+      ],
+      [
+        "There were no news alerts, no way for photos to go viral, no mechanism for a kid on the Gulf Coast to hear these unlikely heroes tell their stories.",
+        "那时没有新闻推送，照片无法迅速传遍网络，墨西哥湾沿岸的孩子也没有渠道听这些意想不到的英雄讲述他们的故事。",
+        false
+      ],
+      [
+        "Greenwich Village may as well have been a different planet, though I can tell you that the slurs and hatreds were the same.",
+        "格林威治村对我来说简直像另一个星球，不过我可以告诉你们，侮辱和仇恨在哪里都一样。",
+        false
+      ],
+      [
+        "What I would not know, for a long time, was what I owed to a group of people I never knew in a place I’d never been.",
+        "很长一段时间里，我都不知道自己受惠于一群素未谋面的人，他们身处一个我从未去过的地方。",
+        false
+      ],
+      [
+        "Yet I will never stop being grateful for what they had the courage to build.",
+        "然而，我会永远感激他们有勇气创造的一切。",
+        false
+      ],
+      [
+        "Graduates, being a builder is about believing that you cannot possibly be the greatest cause on this Earth, because you aren’t built to last.",
+        "毕业生们，成为建设者意味着相信：你不可能是这世上最伟大的事业本身，因为人无法永远活下去。",
+        false
+      ],
+      [
+        "It’s about making peace with the fact that you won’t be there for the end of the story.",
+        "这意味着坦然接受一个事实：你无法亲眼看到故事的结局。",
+        false
+      ],
+      [
+        "You won’t be ready",
+        "你不可能完全准备好",
+        false
+      ],
+      [
+        "That brings me to my last bit of advice.",
+        "这引出了我的最后一点建议。",
+        false
+      ],
+      [
+        "Fourteen years ago, Steve stood on this stage and told your predecessors: “Your time is limited, so don’t waste it living someone else’s life.”",
+        "十四年前，史蒂夫站在这个讲台上告诉你们的前辈：“你们的时间有限，所以不要浪费时间过别人的生活。”",
+        true
+      ],
+      [
+        "Here’s my corollary: “Your mentors may leave you prepared, but they can’t leave you ready.”",
+        "而我要补充的是：“导师可以帮你做准备，却无法让你为一切做好准备。”",
+        true
+      ],
+      [
+        "When Steve got sick, I had hardwired my thinking to the belief that he would get better.",
+        "当史蒂夫生病时，我坚定地相信他会好起来。",
+        false
+      ],
+      [
+        "I not only thought he would hold on, I was convinced, down to my core, that he’d still be guiding Apple long after I, myself, was gone.",
+        "我不仅认为他会坚持下去，而且从内心深处相信，在我本人离开后很长一段时间，他仍然会领导苹果公司。",
+        false
+      ],
+      [
+        "Then, one day, he called me over to his house and told me that it wasn’t going to be that way.",
+        "然后，有一天，他把我叫到他家，告诉我事情不会那样。",
+        false
+      ],
+      [
+        "Even then, I was convinced he would stay on as chairman.",
+        "即便如此，我仍然相信他会继续担任董事长。",
+        false
+      ],
+      [
+        "That he’d step back from the day to day but always be there as a sounding board.",
+        "他会退出日常事务，但始终在我需要商量时给予建议。",
+        false
+      ],
+      [
+        "But there was no reason to believe that.",
+        "但没有理由相信这一点。",
+        false
+      ],
+      [
+        "I never should have thought it.",
+        "我从来不应该这么想。",
+        false
+      ],
+      [
+        "The facts were all there.",
+        "事实就在那里。",
+        false
+      ],
+      [
+        "And when he was gone, truly gone, I learned the real, visceral difference between preparation and readiness.",
+        "而当他离开，真正离开后，我切身地体会到了“做过准备”和“真正准备好”之间的区别。",
+        false
+      ],
+      [
+        "It was the loneliest I’ve ever felt in my life.",
+        "这是我一生中最孤独的感觉。",
+        false
+      ],
+      [
+        "By an order of magnitude.",
+        "那种孤独比以往强烈得多。",
+        false
+      ],
+      [
+        "It was one of those moments where you can be surrounded by people, yet you don’t really see, hear or even feel them.",
+        "那是一种即使身边围满了人，你却仿佛看不见、听不见，甚至感觉不到他们的时刻。",
+        false
+      ],
+      [
+        "But I could sense their expectations.",
+        "但我能感觉到他们的期望。",
+        false
+      ],
+      [
+        "When the dust settled, all I knew was that I was going to have to be the best version of myself that I could be.",
+        "尘埃落定后，我只知道自己必须尽全力成为最好的自己。",
+        false
+      ],
+      [
+        "I knew that if you got out of bed every morning and set your watch by what other people expect or demand, it’ll drive you crazy.",
+        "我知道，如果你每天早上起床，都以别人的期望或要求来安排自己的人生，那会让你发疯。",
+        false
+      ],
+      [
+        "So what was true then is true now.",
+        "因此，那时适用的道理，现在仍然适用。",
+        false
+      ],
+      [
+        "Don’t waste your time living someone else’s life.",
+        "不要浪费你的时间过别人的生活。",
+        false
+      ],
+      [
+        "Don’t try to emulate the people who came before you to the exclusion of everything else, contorting into a shape that doesn’t fit.",
+        "不要为了模仿前人而放弃其他一切，把自己硬塞进一个并不适合的模子。",
+        false
+      ],
+      [
+        "It takes too much mental effort – effort that should be dedicated to creating and building.",
+        "这样做太消耗心力，而这些心力本该用来创造和建设。",
+        false
+      ],
+      [
+        "You’ll waste precious time trying to rewire your every thought, and, in the mean time, you won’t be fooling anybody.",
+        "你会浪费宝贵的时间，试图改变自己的每一个想法；与此同时，你也骗不过任何人。",
+        false
+      ],
+      [
+        "Graduates, the fact is, when your time comes, and it will, you’ll never be ready.",
+        "毕业生们，事实是，当属于你们的时刻到来时——它一定会到来——你们永远不会完全准备好。",
+        false
+      ],
+      [
+        "But you’re not supposed to be.",
+        "但你们本来就不必为一切做好准备。",
+        false
+      ],
+      [
+        "Find the hope in the unexpected.",
+        "在意外中找到希望。",
+        true
+      ],
+      [
+        "Find the courage in the challenge.",
+        "在挑战中找到勇气。",
+        true
+      ],
+      [
+        "Find your vision on the solitary road.",
+        "在独自前行的道路上找到自己的方向。",
+        true
+      ],
+      [
+        "Don’t get distracted.",
+        "不要分心。",
+        false
+      ],
+      [
+        "There are too many people who want credit without responsibility.",
+        "有太多人只想获得功劳，却不愿承担责任。",
+        false
+      ],
+      [
+        "Too many who show up for the ribbon cutting without building anything worth a damn.",
+        "有太多人只出席剪彩仪式，却没有建设任何真正有价值的东西。",
+        false
+      ],
+      [
+        "Be different.",
+        "做一个不一样的人。",
+        true
+      ],
+      [
+        "Leave something worthy.",
+        "留下有价值的东西。",
+        true
+      ],
+      [
+        "And always remember that you can’t take it with you.",
+        "永远记住，你无法把它带走。",
+        false
+      ],
+      [
+        "You’re going to have to pass it on.",
+        "你必须把它传递下去。",
+        false
+      ],
+      [
+        "Thank you very much.",
+        "非常感谢。",
+        false
+      ],
+      [
+        "And Congratulations to the Class of 2019!",
+        "祝贺 2019 届毕业生！",
+        false
       ]
     ]
   },
@@ -1466,17 +2981,577 @@ const speeches = [
     "title": "相信自己的价值",
     "englishTitle": "2016 Concession Speech",
     "year": "2016",
-    "category": "精选片段",
+    "category": "完整原稿",
     "description": "永远相信自己的价值与力量。",
-    "youtube": "Bcck7hr9Su8",
+    "youtube": "khK9fIgoNjQ",
     "source": "https://www.presidency.ucsb.edu/documents/remarks-new-york-city-conceding-the-2016-presidential-election",
     "sourceLabel": "American Presidency Project 英文逐字稿",
-    "note": "此处为演讲精选短句，完整原文请通过来源链接阅读。",
+    "note": "根据提供的英文原稿逐句翻译；包括蒂姆·凯恩的开场介绍，随后为希拉里的讲话。中文为学习译文。视频含开场介绍。",
     "sentences": [
       [
-        "Never doubt that you are valuable and powerful...",
-        "永远不要怀疑，你有价值，也有力量。",
+        "Senator Tim Kaine: My wife, Anne, and I are so proud of Hillary Clinton. [applause]",
+        "参议员蒂姆·凯恩：我的妻子安妮和我都为希拉里·克林顿感到骄傲。［掌声］",
+        false
+      ],
+      [
+        "I'm proud of Hillary Clinton because she has been and is a great history maker in every thing that she has done as a civil rights lawyer and first lady of Arkansas and first lady of this country and senator and secretary of state.",
+        "我为希拉里·克林顿感到骄傲，因为无论作为民权律师、阿肯色州第一夫人、美国第一夫人、参议员还是国务卿，她一直在创造历史。",
+        false
+      ],
+      [
+        "She has made history.",
+        "她创造了历史。",
+        false
+      ],
+      [
+        "In a nation that is good at so many things, but that has made it uniquely difficult for women to be elected to federal office, she became the first major party nominee as a woman to be president and last night won the popular vote of Americans for the president. [applause]",
+        "在这个擅长许多事情，却让女性尤其难以当选联邦公职的国家，她成为首位获得主要政党总统提名的女性，并在昨晚赢得了总统选举的全国普选票。［掌声］",
+        false
+      ],
+      [
+        "That is an amazing accomplishment.",
+        "这是一项了不起的成就。",
+        false
+      ],
+      [
+        "It is an amazing accomplishment.",
+        "这是一项了不起的成就。",
+        false
+      ],
+      [
+        "I'm proud of Hillary Clinton because in the words of Langston Hughes, she's \"held fast to dreams.\"",
+        "我为希拉里·克林顿感到骄傲，因为用兰斯顿·休斯的话说，她“坚持梦想”。",
+        false
+      ],
+      [
+        "She was inspired at a young age to an epiphany that if families and children do well, that's the best barometer of whether society does well.",
+        "她年轻时就领悟到：家庭和孩子的生活是否美好，是衡量社会是否健康的最好晴雨表。",
+        false
+      ],
+      [
+        "In everything she's done, she's focused on that.",
+        "在她所做的一切中，她都专注于此。",
+        false
+      ],
+      [
+        "We know she would have made history as a president in one sense, but we never have had a president who's made their whole career about the empowerment of families and children.",
+        "我们知道，从一个角度看，她成为总统会创造历史；但我们还从未有过一位将整个职业生涯都投入改善家庭和儿童处境的总统。",
+        false
+      ],
+      [
+        "And I was as excited about that in the Oval Office as I was excited to have my friend Hillary there and make history as the first woman president.",
+        "想到这样的事业能够进入椭圆形办公室，和想到我的朋友希拉里能在那里、成为首位女总统并创造历史一样，让我兴奋。",
+        false
+      ],
+      [
+        "I'm excited and proud of Hillary because she has built such a wonderful team.",
+        "我为希拉里感到兴奋和自豪，因为她建立了如此出色的团队。",
+        false
+      ],
+      [
+        "There is a...[applause]",
+        "有一个……［掌声］",
+        false
+      ],
+      [
+        "There's a beautiful and kind of comical parable in the New Testament about a vineyard owner who hires people to work and says I'm going to pay you this for a full day.",
+        "《新约》里有一个美丽又有些滑稽的寓言：一位葡萄园主雇人干活，答应支付一整天的工钱。",
+        false
+      ],
+      [
+        "Then he hires people at noon, I'm going to pay you the same thing for the half day.",
+        "接着他中午又雇了一些人，说干半天也付同样的钱。",
+        false
+      ],
+      [
+        "Then he hires people one hours work, I'm going to pay you the same.",
+        "然后他又雇人只干一个小时，说也付同样的工资。",
+        false
+      ],
+      [
+        "And those who started earlier in the day said hold on, we don't like this, that you're treating everybody who came late just as well as you're treating us.",
+        "那些一早开始干活的人说，等等，我们不喜欢这样；你对待晚来的人和对待我们一样好。",
+        false
+      ],
+      [
+        "I'm going to tell you something, here's what I've come to know so well about Hillary.",
+        "我想告诉你们一件事：这是我对希拉里的深切了解。",
+        false
+      ],
+      [
+        "The team that she has assembled over the years of people that are so deeply loyal to her because she's so deeply loyal to them is inspiring.",
+        "她多年来组建的团队令人感动：这些人对她无比忠诚，因为她也对他们无比忠诚。",
+        false
+      ],
+      [
+        "But I've seen that same degree of loyalty and compassion and sensitivity extended to the most recent folks who have joined the team, the folks who came to the vineyard with just one hour to go.",
+        "但我也看到，她把同样的忠诚、关怀和体贴给予了最近才加入团队的人——那些只剩一个小时才来到葡萄园的人。",
+        false
+      ],
+      [
+        "Her loyalty and compassion of Hillary and Bill to people, if you're with you you're with you.",
+        "希拉里和比尔对人们的忠诚与关怀……［原稿此处口述不完整］。",
+        false
+      ],
+      [
+        "And that is just something so remarkable.",
+        "这实在是太了不起了。",
+        false
+      ],
+      [
+        "And finally, I'm proud of Hillary because she loves this country. [applause]",
+        "最后，我为希拉里感到骄傲，因为她热爱这个国家。 [鼓掌]",
+        false
+      ],
+      [
+        "Nobody — nobody had to wonder about Hillary Clinton, whether she would accept an outcome of an election in our beautiful democracy.",
+        "没有人——没有人需要怀疑希拉里·克林顿是否会接受我们美好民主制度下的选举结果。",
+        false
+      ],
+      [
+        "Nobody had to ask that question.",
+        "没有人需要提出这个问题。",
+        false
+      ],
+      [
+        "Nobody had to doubt it.",
+        "没有人需要为此怀疑。",
+        false
+      ],
+      [
+        "She knows our country for what it is.",
+        "她了解我们的国家是什么样的。",
+        false
+      ],
+      [
+        "She knows the system that we have and its warts and blemishes.",
+        "她了解我们的制度，也了解它的种种缺点和瑕疵。",
+        false
+      ],
+      [
+        "She's deeply in love with it and accepts it.",
+        "她深爱并接受这一切。",
+        false
+      ],
+      [
+        "She's been in battles before where if it didn't go her way she accepted it, but then woke up the next day and battled again for the dreams that she's held fast to.",
+        "她曾参与过许多战斗；当结果不如愿时，她会接受结果，但第二天醒来，又继续为自己坚持的梦想而战。",
+        false
+      ],
+      [
+        "And that love of country is something that I think is obvious to everybody, obvious to everyone.",
+        "我认为，她对国家的热爱，是所有人都看得见的，所有人都看得见。",
+        false
+      ],
+      [
+        "I want to thank Hillary Clinton for asking Anne and I to join this wild ride.",
+        "我要感谢希拉里·克林顿邀请我和安妮加入这段充满挑战的旅程。",
+        false
+      ],
+      [
+        "We — about a week before she asked if I would be her running mate, Anne and I went up to Westchester and we sat down with Hillary and Bill and with Chelsea and Mark and with Charlotte and Aiden for about three hours of conversation to try to determine whether we would be the right people to be on the ticket.",
+        "在她询问我是否愿意成为竞选搭档的大约一周前，安妮和我去了威彻斯特，与希拉里、比尔、切尔西、马克、夏洛特和艾登坐下来谈了约三个小时，看看我们是否适合作为竞选搭档。",
+        false
+      ],
+      [
+        "And when we got in the car to head back to the airport after the three hour discussion, I said to Anne, \"Honey, I don't know whether we're going to be on this ticket or not, but I do know this, we're going to remember that three hours for the rest of our life.\"",
+        "三个小时的交谈结束后，我们坐车返回机场，我对安妮说：“亲爱的，我不知道我们会不会加入竞选，但我知道，我们一辈子都会记得这三个小时。”",
+        false
+      ],
+      [
+        "And now, we've — we'll remember 105 days that we've had with this fantastic couple of public servants and all of you for the rest of our life.",
+        "而现在，我们也会一辈子记住与这对出色的公职人员夫妇以及你们大家共同度过的105天。",
+        false
+      ],
+      [
+        "I'll just say this.",
+        "我就这么说。",
+        false
+      ],
+      [
+        "Hillary and I know well the wisdom and the words of William Faulkner.",
+        "希拉里和我非常了解威廉·福克纳的智慧和话语。",
+        false
+      ],
+      [
+        "He said, \"They kilt us but they ain't whupped us yet.\" [applause]",
+        "他说：“他们把我们杀了，但还没有打败我们。”［掌声］",
+        false
+      ],
+      [
+        "\"They kilt us but they ain't whupped us yet,\" because we know that the work remains.",
+        "“他们把我们杀了，但还没有打败我们。”因为我们知道，工作还要继续。",
+        false
+      ],
+      [
+        "We know that the dreams of empowering families and children remain.",
+        "我们知道，改善家庭和儿童处境的梦想依然存在。",
+        false
+      ],
+      [
+        "And in that work, that important work that we have to do as a nation, it is so comforting even at a tough time to know that Hillary Clinton is somebody until her very last breath is going to be battling for the values that make this nation great and the values that we care so deeply about.",
+        "在我们作为一个国家必须完成的这项重要工作中，即使是在艰难时刻，知道希拉里·克林顿会奋斗到生命的最后一息，捍卫让国家伟大、也让我们深深珍视的价值观，依然令人感到宽慰。",
+        false
+      ],
+      [
+        "So now, please join me in welcoming Secretary Hillary Rodham Clinton. [applause]",
+        "现在，请和我一起欢迎希拉里·罗德姆·克林顿国务卿。［掌声］",
+        false
+      ],
+      [
+        "Secretary Clinton: Thank you.",
+        "克林顿国务卿：谢谢。",
+        false
+      ],
+      [
+        "Thank you all.",
+        "谢谢大家。",
+        false
+      ],
+      [
+        "Thank you. [applause]",
+        "谢谢。［掌声］",
+        false
+      ],
+      [
+        "Thank you all very much.",
+        "非常感谢大家。",
+        false
+      ],
+      [
+        "Thank you.",
+        "谢谢。",
+        false
+      ],
+      [
+        "Thank you.",
+        "谢谢。",
+        false
+      ],
+      [
+        "Thank you so much. [applause]",
+        "非常感谢。［掌声］",
+        false
+      ],
+      [
+        "Very rowdy group.",
+        "大家真是热情。",
+        false
+      ],
+      [
+        "Thank you, my friends.",
+        "谢谢你们，我的朋友们。",
+        false
+      ],
+      [
+        "Thank you.",
+        "谢谢。",
+        false
+      ],
+      [
+        "Thank you, thank you so very much for being here and I love you all, too.",
+        "谢谢，谢谢你们到场，非常感谢；我也爱你们大家。",
+        false
+      ],
+      [
+        "Last night, I congratulated Donald Trump and offered to work with him on behalf of our country.",
+        "昨晚，我向唐纳德·特朗普表示祝贺，并提出为了我们的国家与他合作。",
+        false
+      ],
+      [
+        "I hope that he will be a successful president for all Americans.",
+        "我希望他能成为一位为所有美国人服务的成功总统。",
+        false
+      ],
+      [
+        "This is not the outcome we wanted or we worked so hard for and I'm sorry that we did not win this election for the values we share and the vision we hold for our country.",
+        "这不是我们想要、也不是我们为之努力奋斗的结果；为了我们共同的价值观和对国家的愿景，我很遗憾我们没能赢得这场选举。",
+        false
+      ],
+      [
+        "But I feel pride and gratitude for this wonderful campaign that we built together, this vast, diverse, creative, unruly, energized campaign.",
+        "但我为我们共同创造的这场精彩竞选感到骄傲和感激——它规模庞大、多元、充满创造力、不拘一格而又活力四射。",
+        false
+      ],
+      [
+        "You represent the best of America and being your candidate has been one of the greatest honors of my life. [applause]",
+        "你们代表了美国最美好的一面，成为你们的候选人，是我一生中最大的荣誉之一。［掌声］",
+        false
+      ],
+      [
+        "I know how disappointed you feel because I feel it too, and so do tens of millions of Americans who invested their hopes and dreams in this effort.",
+        "我知道你们有多么失望，因为我也一样；数千万把希望和梦想投入这场努力的美国人也是如此。",
+        false
+      ],
+      [
+        "This is painful and it will be for a long time, but I want you to remember this.",
+        "这令人痛苦，而且这种痛苦会持续很久，但我希望你们记住这一点。",
+        false
+      ],
+      [
+        "Our campaign was never about one person or even one election, it was about the country we love and about building an America that's hopeful, inclusive and big-hearted.",
+        "我们的竞选从来不只是为了一个人，甚至不只是为了一次选举；它关乎我们热爱的国家，关乎建设一个充满希望、包容而宽厚的美国。",
+        false
+      ],
+      [
+        "We have seen that our nation is more deeply divided than we thought.",
+        "我们已经看到我们国家的分裂比我们想象的更加严重。",
+        false
+      ],
+      [
+        "But I still believe in America and I always will.",
+        "但我仍然相信美国，而且我永远都会相信。",
+        false
+      ],
+      [
+        "And if you do, then we must accept this result and then look to the future.",
+        "如果你们也相信，那么我们必须接受这个结果，向未来看。",
+        false
+      ],
+      [
+        "Donald Trump is going to be our president.",
+        "唐纳德·特朗普将成为我们的总统。",
+        false
+      ],
+      [
+        "We owe him an open mind and the chance to lead.",
+        "我们应当以开放的心态给他领导国家的机会。",
+        false
+      ],
+      [
+        "Our constitutional democracy enshrines the peaceful transfer of power and we don't just respect that, we cherish it.",
+        "我们的宪政民主体制确立了权力的和平移交；我们不仅尊重这一原则，也珍视它。",
+        false
+      ],
+      [
+        "It also enshrines other things; the rule of law, the principle that we are all equal in rights and dignity, freedom of worship and expression.",
+        "它还确立了其他原则：法治、人人享有平等的权利与尊严，以及信仰自由和言论自由。",
+        false
+      ],
+      [
+        "We respect and cherish these values too and we must defend them. [applause]",
+        "我们同样尊重和珍视这些价值，也必须捍卫它们。［掌声］",
+        false
+      ],
+      [
+        "Now — and let me add, our constitutional democracy demands our participation, not just every four years but all the time.",
+        "让我再补充一点：我们的宪政民主需要我们参与，不只是每四年一次，而是始终如此。",
+        false
+      ],
+      [
+        "So let's do all we can to keep advancing the causes and values we all hold dear; making our economy work for everyone not just those at the top, protecting our country and protecting our planet and breaking down all the barriers that hold any American back from achieving their dreams.",
+        "因此，让我们尽一切努力，继续推进我们共同珍视的事业和价值：让经济惠及每一个人，而不只是顶层人士；保护国家和地球；打破阻碍任何美国人实现梦想的所有障碍。",
+        false
+      ],
+      [
+        "We've spent a year and a half bringing together millions of people from every corner of our country to say with one voice that we believe that the American dream is big enough for everyone — for people of all races and religions, for men and women, for immigrants, for LGBT people, and people with disabilities.",
+        "一年半来，我们汇聚了来自全国各地的数百万人，共同发出一个声音：我们相信美国梦足够宽广，能够容纳所有人——不同种族、不同信仰的人，男性和女性，移民、LGBT群体以及残障人士。",
+        false
+      ],
+      [
+        "For everyone. [applause]",
+        "包括每一个人。［掌声］",
+        false
+      ],
+      [
+        "So now, our responsibility as citizens is to keep doing our part to build that better, stronger, fairer America we seek.",
+        "如今，作为公民，我们的责任是继续尽自己的一份力量，建设我们所追求的更美好、更强大、更公平的美国。",
+        false
+      ],
+      [
+        "And I know you will.",
+        "我知道你们会这样做。",
+        false
+      ],
+      [
+        "I am so grateful to stand with all of you.",
+        "我非常感激能与你们大家站在一起。",
+        false
+      ],
+      [
+        "I want to thank Tim Kaine and Anne Holton for being our partners on this journey. [applause]",
+        "我要感谢蒂姆·凯恩和安妮·霍尔顿成为我们这段旅程的伙伴。［掌声］",
+        false
+      ],
+      [
+        "It has been a joy getting to know them better, and it gives me great hope and comfort to know that Tim will remain on the front lines of our democracy representing Virginia in the Senate. [applause]",
+        "能更深入地了解他们是一件令人愉快的事；我知道蒂姆将继续站在民主的前线，在参议院代表弗吉尼亚州，这让我充满希望，也感到宽慰。［掌声］",
+        false
+      ],
+      [
+        "To Barack and Michelle Obama, our country owes you an enormous debt of gratitude. [applause]",
+        "巴拉克和米歇尔·奥巴马，我们的国家欠你们一份深深的谢意。［掌声］",
+        false
+      ],
+      [
+        "We — we thank you for your graceful, determined leadership that has meant so much to so many Americans and people across the world.",
+        "我们——我们感谢你们从容而坚定的领导，这对无数美国人和世界各地的人们都意义重大。",
+        false
+      ],
+      [
+        "And to Bill and Chelsea, Mark, Charlotte, Aidan, our brothers and our entire family, my love for you means more than I can ever express.",
+        "还有比尔、切尔西、马克、夏洛特、艾丹、我们的兄弟以及整个家庭：我对你们的爱，远远超出语言所能表达的范围。",
+        false
+      ],
+      [
+        "You crisscrossed this country on our behalf and lifted me up when I needed it most — even four-month-old Aidan who traveled with his mom.",
+        "你们代表我们走遍全国，在我最需要的时候给我力量——甚至包括和妈妈一起出行的四个月大的艾丹。",
+        false
+      ],
+      [
+        "I will always be grateful to the creative, talented, dedicated men and women at our headquarters in Brooklyn and across our country. [applause]",
+        "我将永远感谢布鲁克林总部和全国各地那些富有创造力、才华与奉献精神的工作人员。［掌声］",
+        false
+      ],
+      [
+        "You poured your hearts into this campaign.",
+        "你们为这场竞选倾注了全部心血。",
+        false
+      ],
+      [
+        "For some of you who are veterans, it was a campaign after you had done other campaigns.",
+        "你们中有些是经验丰富的竞选老兵，已经参加过其他竞选。",
+        false
+      ],
+      [
+        "Some of you, it was your first campaign.",
+        "而对另一些人来说，这是第一次参加竞选。",
+        false
+      ],
+      [
+        "I want each of you to know that you were the best campaign anybody could have ever expected or wanted. [applause]",
+        "我要你们每个人都知道，你们是任何人都梦寐以求的最好的竞选团队。［掌声］",
+        false
+      ],
+      [
+        "And to the millions of volunteers, community leaders, activists and union organizers who knocked on doors, talked to neighbors, posted on Facebook, even in secret, private Facebook sites...[laughter and applause]...I want everybody coming out from behind that and make sure your voices are heard going forward. [applause]",
+        "还有数百万志愿者、社区领袖、活动人士和工会组织者：你们挨家挨户敲门、与邻居交谈、在Facebook上发帖，甚至在秘密的私人群组里发帖……［笑声和掌声］……我希望大家从幕后走出来，确保今后你们的声音能被听见。［掌声］",
+        false
+      ],
+      [
+        "To everyone who sent in contributions as small at $5 and kept us going, thank you.",
+        "感谢每一位捐出哪怕只有5美元、支持我们继续前进的人。",
+        false
+      ],
+      [
+        "Thank you from all of us.",
+        "我们所有人都感谢你们。",
+        false
+      ],
+      [
+        "And to the young people in particular, I hope you will hear this.",
+        "尤其是年轻人，我希望你们听到这些话。",
+        false
+      ],
+      [
+        "I have, as Tim said, spent my entire adult life fighting for what I believe in.",
+        "正如蒂姆所说，我整个成年生活都在为自己所信仰的事情而奋斗。",
+        false
+      ],
+      [
+        "I've had successes and I've had setbacks.",
+        "我有过成功，也有过挫折。",
+        false
+      ],
+      [
+        "Sometimes, really painful ones.",
+        "有时候，挫折真的非常痛苦。",
+        false
+      ],
+      [
+        "Many of you are at the beginning of your professional public and political careers.",
+        "你们中许多人刚刚开始自己的职业生涯、公共服务生涯和政治生涯。",
+        false
+      ],
+      [
+        "You will have successes and setbacks, too.",
+        "你们也会经历成功和挫折。",
+        false
+      ],
+      [
+        "This loss hurts, but please never stop believing that fighting for what's right is worth it. [applause]",
+        "这次失败令人痛苦，但请永远相信：为正确的事情而奋斗，永远是值得的。［掌声］",
         true
+      ],
+      [
+        "It is — it is worth it. [applause]",
+        "是的——这是值得的。［掌声］",
+        false
+      ],
+      [
+        "And so we need — we need you to keep up these fights now and for the rest of your lives.",
+        "所以我们需要——我们需要你们现在以及在今后的人生中继续奋斗。",
+        false
+      ],
+      [
+        "And to all the women, and especially the young women, who put their faith in this campaign and in me, I want you to know that nothing has made me prouder than to be your champion. [applause]",
+        "致所有信任这场竞选、信任我的女性，尤其是年轻女性：我要让你们知道，没有什么比成为你们的支持者和捍卫者更让我自豪。［掌声］",
+        false
+      ],
+      [
+        "Now, I — I know — I know we have still not shattered that highest and hardest glass ceiling, but some day someone will and hopefully sooner than we might think right now. [applause]",
+        "我——我知道，我们还没有打破那最高、最坚硬的玻璃天花板，但总有一天会有人做到，希望那一天比我们现在想象的更早到来。［掌声］",
+        false
+      ],
+      [
+        "And — and to all the little girls who are watching this, never doubt that you are valuable and powerful and deserving of every chance and opportunity in the world to pursue and achieve your own dreams.",
+        "还有所有正在观看的小女孩们：永远不要怀疑，你们有价值、有力量，也值得拥有世界上的每一个机会，去追寻并实现自己的梦想。",
+        true
+      ],
+      [
+        "Finally...[applause]",
+        "最后……［掌声］",
+        false
+      ],
+      [
+        "Finally, I am so grateful for our country and for all it has given to me.",
+        "最后，我非常感激我们的国家，感激它给予我的一切。",
+        false
+      ],
+      [
+        "I count my blessings every single day that I am an American.",
+        "身为美国人，我每天都心怀感恩。",
+        false
+      ],
+      [
+        "And I still believe as deeply as I ever have that if we stand together and work together with respect for our differences, strength in our convictions and love for this nation, our best days are still ahead of us. [applause]",
+        "我仍然一如既往地坚信：如果我们团结一致、共同努力，尊重彼此的差异，坚定我们的信念，热爱这个国家，那么我们最好的日子仍在前方。［掌声］",
+        true
+      ],
+      [
+        "Because, you know — you know, I believe we are stronger together and we will go forward together.",
+        "因为，你们知道——我相信团结在一起的我们更强大，我们会一起向前。",
+        true
+      ],
+      [
+        "And you should never, ever regret fighting for that.",
+        "而你们永远、永远不必后悔为此而奋斗。",
+        false
+      ],
+      [
+        "You know, scripture tells us, \"Let us not grow weary in doing good, for in due season, we shall reap if we do not lose heart.\"",
+        "你知道，圣经告诉我们，“我们行善不可丧志，若不灰心，到了时候，就会有收成。”",
+        false
+      ],
+      [
+        "So my friends, let us have faith in each other, let us not grow weary, let us not lose heart, for there are more seasons to come.",
+        "所以，朋友们，让我们彼此信任，不要疲倦，不要灰心，因为未来还有更多时节。",
+        true
+      ],
+      [
+        "And there is more work to do.",
+        "还有更多的工作要做。",
+        false
+      ],
+      [
+        "I am incredibly honored and grateful to have had this chance to represent all of you in this consequential election.",
+        "能有机会在这场意义重大的选举中代表你们所有人，我感到无比荣幸和感激。",
+        false
+      ],
+      [
+        "May God bless you and may God bless the United States of America.",
+        "愿上帝保佑你们，也愿上帝保佑美利坚合众国。",
+        false
       ]
     ]
   }
