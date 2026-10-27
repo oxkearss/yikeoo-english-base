@@ -99,23 +99,23 @@ function showReader(speech) {
   });
 }
 
-function speak(text, message) {
-  playbackId++;
+function playAudio(src, message) {
+  window.speechSynthesis?.cancel();
+  const currentPlayback = ++playbackId;
   sentenceAudio.pause();
+  sentenceAudio.src = src;
   const status = document.querySelector('#sound-status');
-  if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance !== 'function') {
-    status.textContent = '当前浏览器暂不支持单词朗读。';
-    return;
-  }
-  const utterance = new SpeechSynthesisUtterance(text.replace(/\[[^\]]*\]/g, '').trim());
-  utterance.lang = 'en-US';
-  utterance.rate = 0.85;
-  const voices = window.speechSynthesis.getVoices();
-  utterance.voice = voices.find((voice) => voice.lang.toLowerCase() === 'en-us') || voices.find((voice) => voice.lang.toLowerCase().startsWith('en')) || null;
-  utterance.onerror = () => { status.textContent = '单词朗读暂时不可用，请检查设备声音或稍后重试。'; };
-  window.speechSynthesis.cancel();
-  window.speechSynthesis.speak(utterance);
-  status.textContent = message;
+  status.textContent = '正在加载 AI 英语朗读…';
+  sentenceAudio.play().then(() => {
+    if (currentPlayback === playbackId) status.textContent = message;
+  }).catch(() => {
+    if (currentPlayback === playbackId) status.textContent = 'AI 朗读暂时无法播放，请检查网络后重试。';
+  });
+}
+
+function speak(word) {
+  const filename = word.toLowerCase().replace(/’/g, "'");
+  playAudio(`audio/words/${encodeURIComponent(filename)}.mp3`, `正在朗读：${word}`);
 }
 
 async function openWordDetails(word) {
@@ -183,20 +183,14 @@ transcript.addEventListener('click', (event) => {
     selectedWord = wordButton.dataset.word;
     wordInfoButton.hidden = false;
     wordInfoButton.textContent = `查看 ${selectedWord} 的释义`;
-    speak(selectedWord, `正在朗读：${selectedWord}`);
+    speak(selectedWord);
   } else if (sentenceButton) {
-    window.speechSynthesis?.cancel();
-    const currentPlayback = ++playbackId;
-    sentenceAudio.pause();
-    sentenceAudio.src = sentenceButton.dataset.audio;
-    const status = document.querySelector('#sound-status');
-    status.textContent = '正在加载 AI 英语朗读…';
-    sentenceAudio.play().then(() => { if (currentPlayback === playbackId) status.textContent = '正在播放 AI 英语朗读'; }).catch(() => { if (currentPlayback === playbackId) status.textContent = 'AI 朗读暂时无法播放，请检查网络后重试。'; });
+    playAudio(sentenceButton.dataset.audio, '正在播放 AI 英语朗读');
   }
 });
 wordInfoButton.addEventListener('click', () => { if (selectedWord) openWordDetails(selectedWord); });
 document.querySelector('#close-word-dialog').addEventListener('click', () => wordDialog.close());
-document.querySelector('#word-pronounce').addEventListener('click', () => speak(selectedWord, `正在朗读：${selectedWord}`));
+document.querySelector('#word-pronounce').addEventListener('click', () => speak(selectedWord));
 
 document.querySelector('#highlights-toggle').addEventListener('click', (event) => {
   const enabled = event.currentTarget.getAttribute('aria-pressed') !== 'true';
